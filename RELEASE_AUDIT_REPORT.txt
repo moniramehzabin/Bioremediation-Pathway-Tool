@@ -1,0 +1,17 @@
+V0.4 INTEGRITY: PASS
+PASS PET v0.2 regression lock: all PET/TPA rows and 6 reference sequences unchanged
+PCL STRICT GATE: DOWNGRADE_TO_REVIEW
+PCL strict-gate audit: /tmp/tmpmyoq1_ub/a.tsv
+PCL STRICT GATE: KEEP_SUPPORTED
+PCL strict-gate audit: /tmp/tmpqbjynda_/a.tsv
+PCL STRICT GATE: KEEP_SUPPORTED
+PCL strict-gate audit: /tmp/tmpx_supie8/a.tsv
+PASS PCL strict gate: below-threshold rescue -> REVIEW; strong rescue -> keep; exact annotation -> keep
+Resolved Annotation Scanner v0.8.10
+Unique exact reaction-locus pairs: 9
+Wrote: /tmp/tmpzp0q4ivt/pairs.tsv
+PASS: synthetic annotation positive control resolves all 7 microplastics reactions; TPADO has A1/A2/A3 components
+RELEASE AUDIT: PASS
+Core: 34 pathways/modules; 81 reactions; 379 reference proteins; 26 protected files
+Microplastics: 7 exact reactions; PET/PCL/PBAT/PU; annotation positive control PASS
+Personal absolute path scan: PASS

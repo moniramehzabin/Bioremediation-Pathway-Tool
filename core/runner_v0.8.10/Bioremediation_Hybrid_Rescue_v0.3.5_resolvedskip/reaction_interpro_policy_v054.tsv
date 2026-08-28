@@ -1,0 +1,18 @@
+reaction_id	policy_status	specific_ids	specific_terms	broad_ids	broad_terms	conflicting_ids	conflicting_terms	notes
+BRXN_CHRR_CRVI	CURATED	PTHR30543	chromate reductase	IPR050712|IPR005025|IPR029039	NAD(P)H-dependent reductase|NADPH-dependent FMN reductase|flavoprotein-like			Specific chromate-reductase label required; broad flavoprotein evidence is only compatible.
+BRXN_MERA_HGII	CURATED	PTHR43014|PIRSF000350	mercuric reductase|Hg-II_reductase_MerA	PF02852|PF07992|PR00411|PR00368	pyridine nucleotide-disulphide|FAD-dependent pyridine nucleotide	NF005883	NAD(P)H-quinone dehydrogenase|dihydrolipoyl dehydrogenase|mycothione reductase	Specific+conflicting evidence becomes AMBIGUOUS.
+BRXN_CAT_C	CURATED	PF02426|TIGR03221|PIRSF001486	muconolactone delta-isomerase|CatC	SSF54909	dimeric alpha+beta barrel			CatC-specific signatures observed.
+BRXN_PCA_C	CURATED	PF02627|TIGR02425	4-carboxymuconolactone decarboxylase	SSF69118	AhpD-like			PcaC-specific signatures observed.
+BRXN_PRAI_4HB	CURATED	NF006091	4-hydroxybenzoate 3-monooxygenase	PF01494|PR00420	FAD binding domain|aromatic-ring hydroxylase			NF006091 treated as specific.
+BRXN_COP_ATPASE	CURATED	TIGR01511|PR00943	copper-translocating P-type ATPase|copper-transporting ATPase|copper-exporting P-type ATPase	PF00122|TIGR01525|PR00119	P-type ATPase|heavy metal translocating P-type	PTHR42861|PTHR48085|TIGR01512	calcium-transporting ATPase|cadmium/zinc-transporting ATPase|cadmium family heavy metal	Copper-specific supports; calcium/cadmium/zinc-specific conflicts.
+BRXN_ATZ_A	CURATED_BROAD_ONLY			cd01298|PF01979	ATZ_TRZ_like|amidohydrolase family			Compatible family evidence only.
+BRXN_BPH_C	CURATED_BROAD_ONLY			PS00082|cd07256|cd07266|PS51819	extradiol ring-cleavage dioxygenase|HPCD|vicinal oxygen chelate			Compatible family evidence only.
+BRXN_PCA_IJ	CURATED_BROAD_ONLY			TIGR02428|TIGR02429|PF01144|PTHR13707	3-oxoacid CoA-transferase|coenzyme A transferase|ketoacid-coenzyme A transferase			Compatible family evidence only.
+BRXN_PCA_F	CURATED_BROAD_ONLY			PF00108|PF02803|TIGR01930|PIRSF000429|cd00751	thiolase|acetyl-CoA C-acyltransferase			Compatible family evidence only.
+BRXN_BPH_B	CURATED_BROAD_ONLY			PF00106|cd05233|PR00080	short-chain dehydrogenase|SDR	PTHR43669|PTHR48107	5-keto-D-gluconate 5-reductase|NADPH-dependent aldehyde reductase	Generic SDR evidence is broad.
+BRXN_PCA_D	CURATED_BROAD_ONLY			PF00561|PTHR43433|SSF53474	alpha/beta hydrolase			Generic alpha/beta hydrolase only.
+BRXN_NAH_F	CURATED_BROAD_ONLY			PF00171|SSF53720|PTHR11699	aldehyde dehydrogenase|ALDH-like	PTHR43866|PTHR43217|PTHR43353|TIGR01722	malonate-semialdehyde dehydrogenase|succinate-semialdehyde dehydrogenase|methylmalonate-semialdehyde dehydrogenase	Generic ALDH compatible; alternate ALDH subclasses conflict.
+BRXN_STY_D	CURATED_BROAD_ONLY			PF00171|SSF53720|PTHR11699	aldehyde dehydrogenase|ALDH-like	PTHR43217|PTHR43353|PTHR43720|TIGR02299	succinate-semialdehyde dehydrogenase|2-aminomuconic semialdehyde dehydrogenase|5-carboxymethyl-2-hydroxymuconate semialdehyde dehydrogenase	Generic ALDH compatible; alternate ALDH subclasses conflict.
+BRXN_LADA	CURATED_BROAD_ONLY			PF00296|SSF51679	luciferase-like monooxygenase|bacterial luciferase-like	PTHR30011|TIGR03860|PIRSF000337	alkanesulfonate monooxygenase|NtaA/DmoA family|NTA_MOA	Luciferase-like architecture compatible; alternate family calls conflict.
+BRXN_PCA_B	CURATED_CONFLICT_ONLY			PF00206|SSF48557	lyase|L-aspartase-like	NF006764|PTHR43411|PTHR43172	adenylosuccinate lyase	Observed adenylosuccinate-lyase signatures conflict with PcaB.
+BRXN_TFD_B	NOT_CURATED							No sufficiently specific rule established from supplied audit.

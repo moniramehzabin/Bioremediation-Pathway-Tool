@@ -1,0 +1,9 @@
+Bioremediation DB v0.5.2 build summary
+Base reactions: 25
+Merged reactions: 80
+Merged pathway rows: 85
+Component rules: 12
+Reference metadata rows mapped: 299
+Reference targets still unresolved: 0
+Reference FASTA copied byte-for-byte; no sequence was altered.
+Alternative branches are retained for engine v0.3 scoring.

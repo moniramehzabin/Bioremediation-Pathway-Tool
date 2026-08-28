@@ -1,0 +1,17 @@
+system	status	interpretation_rule
+Naphthalene degradation	CURATED_ORDERED	Canonical aerobic route to catechol; upstream NDO/NahB currently lack active refs.
+Biphenyl/PCB upper pathway	CURATED_ORDERED_WITH_COMPONENT_CAUTION	BphA electron-transfer architecture varies among taxa.
+Styrene degradation	CURATED_ORDERED_WITH_COMPONENT_CAUTION	StyB required in classical side-chain oxygenation; no active StyB ref currently.
+2,4-D/chlorophenol + chlorocatechol	CURATED_ORDERED	TfdA entry placeholder plus active TfdB-F targets.
+Atrazine degradation	CURATED_ORDERED_WITH_UNCERTAIN_INTERMEDIATE	Updated lower pathway includes AtzE+AtzG; intermediate conversion toward allophanate remains mechanistically uncertain.
+Hydroxyphenylacetate degradation	CURATED_ORDERED	Canonical HpaBC plus homoprotocatechuate meta-cleavage route.
+Gentisate degradation	CURATED_BRANCHING	Two supported lower routes from maleylpyruvate.
+1,2-dichloroethane degradation	CURATED_ORDERED_WITH_GENERIC_MIDDLE_STEPS_CAUTION	DhlA and DhlB are specific; ADH/ALDH are generic and should not be rescued by name alone.
+Organomercury detoxification	CURATED_ORDERED	MerB then MerA.
+Alkane oxidation	FUNCTIONAL_MODULE	Initial AlkB chemistry supported; full catabolic pathway not scored from AlkB alone.
+Long-chain alkane oxidation	FUNCTIONAL_MODULE	Initial LadA chemistry supported; full pathway not scored from LadA alone.
+Organophosphate hydrolysis	SINGLE_FUNCTION_MODULE	Hydrolysis does not imply complete mineralization.
+Azo-dye reduction	SINGLE_FUNCTION_MODULE	Azoreduction does not imply aromatic amine mineralization.
+Arsenic methylation	SINGLE_FUNCTION_MODULE	Transformation potential only; not universally detoxifying.
+CusA copper/silver resistance	COMPONENT_ONLY_MODULE	CusA alone does not establish full CusCFBA system.
+Catechol meta-cleavage	SINGLE_FUNCTION_MODULE	XylE/NahH reaction only; not complete toluene/xylene pathway.

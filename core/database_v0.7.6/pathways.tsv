@@ -1,0 +1,89 @@
+pathway_id	pathway_name	system_type	category	reaction_id	step_order	required	alternative_group	alternative_set	notes	topology_status	source_id
+BRP_BK_CATECHOL	Beta-ketoadipate pathway — catechol branch	PATHWAY	aromatic_compound_biodegradation	BRXN_CAT_A	1	yes					
+BRP_BK_CATECHOL	Beta-ketoadipate pathway — catechol branch	PATHWAY	aromatic_compound_biodegradation	BRXN_CAT_B	2	yes					
+BRP_BK_CATECHOL	Beta-ketoadipate pathway — catechol branch	PATHWAY	aromatic_compound_biodegradation	BRXN_CAT_C	3	yes					
+BRP_BK_CATECHOL	Beta-ketoadipate pathway — catechol branch	PATHWAY	aromatic_compound_biodegradation	BRXN_PCA_D	4	yes					
+BRP_BK_CATECHOL	Beta-ketoadipate pathway — catechol branch	PATHWAY	aromatic_compound_biodegradation	BRXN_PCA_IJ	5	yes					
+BRP_BK_CATECHOL	Beta-ketoadipate pathway — catechol branch	PATHWAY	aromatic_compound_biodegradation	BRXN_PCA_F	6	yes					
+BRP_BK_PROTOCATECHUATE	Beta-ketoadipate pathway — protocatechuate branch	PATHWAY	aromatic_compound_biodegradation	BRXN_PCA_GH	1	yes					
+BRP_BK_PROTOCATECHUATE	Beta-ketoadipate pathway — protocatechuate branch	PATHWAY	aromatic_compound_biodegradation	BRXN_PCA_B	2	yes					
+BRP_BK_PROTOCATECHUATE	Beta-ketoadipate pathway — protocatechuate branch	PATHWAY	aromatic_compound_biodegradation	BRXN_PCA_C	3	yes					
+BRP_BK_PROTOCATECHUATE	Beta-ketoadipate pathway — protocatechuate branch	PATHWAY	aromatic_compound_biodegradation	BRXN_PCA_D	4	yes					
+BRP_BK_PROTOCATECHUATE	Beta-ketoadipate pathway — protocatechuate branch	PATHWAY	aromatic_compound_biodegradation	BRXN_PCA_IJ	5	yes					
+BRP_BK_PROTOCATECHUATE	Beta-ketoadipate pathway — protocatechuate branch	PATHWAY	aromatic_compound_biodegradation	BRXN_PCA_F	6	yes					
+BRM_CRVI_CHRR	ChrR-associated Cr(VI) reduction	FUNCTIONAL_MODULE	heavy_metal_bioremediation	BRXN_CHRR_CRVI	1	yes					
+BRM_CHROMATE_RESISTANCE	Chromium bioremediation — chromate resistance/efflux	FUNCTIONAL_MODULE	heavy_metal_bioremediation	BRXN_CHRA_EFFLUX	1	yes					
+BRM_ARSENIC_DETOX	Arsenic detoxification — reduction plus efflux	FUNCTIONAL_MODULE	heavy_metal_bioremediation	BRXN_ARS_C	1	yes					
+BRM_ARSENIC_DETOX	Arsenic detoxification — reduction plus efflux	FUNCTIONAL_MODULE	heavy_metal_bioremediation	BRXN_ARS_EFFLUX	2	yes					
+BRM_MERCURY_REDUCTION	Mercury bioremediation — Hg(II) reduction	FUNCTIONAL_MODULE	heavy_metal_bioremediation	BRXN_MERA_HGII	1	yes					
+BRM_COPPER_RESISTANCE	Copper resistance/efflux	FUNCTIONAL_MODULE	heavy_metal_bioremediation	BRXN_COP_ATPASE	1	yes					
+BRM_CADMIUM_CZC_RESISTANCE	Cadmium/zinc/cobalt resistance/efflux	FUNCTIONAL_MODULE	heavy_metal_bioremediation	BRXN_CAD_CZC_EFFLUX	1	yes					
+BRM_DYP_DYE	DyP-associated dye transformation potential	FUNCTIONAL_MODULE	dye_bioremediation	BRXN_DYP	1	yes					
+BRM_MCO_DYE_SUPPORT	Multicopper oxidase/laccase-associated dye oxidation potential	FUNCTIONAL_MODULE	dye_bioremediation	BRXN_LAC_MCO	1	yes					
+BRM_HALOALKANE	Haloalkane dehalogenation potential	FUNCTIONAL_MODULE	halogenated_compound_bioremediation	BRXN_DHMA	1	yes					
+BRM_CHLOROBENZOYL	4-chlorobenzoyl-CoA dehalogenation potential	FUNCTIONAL_MODULE	halogenated_compound_bioremediation	BRXN_FCBB2	1	yes					
+BRM_HPA_DIOXYGENASE	3,4-dihydroxyphenylacetate ring-cleavage module	FUNCTIONAL_MODULE	aromatic_compound_biodegradation	BRXN_HPA_D	1	yes					
+BRM_HPA_DIOXYGENASE	3,4-dihydroxyphenylacetate ring-cleavage module	FUNCTIONAL_MODULE	aromatic_compound_biodegradation	BRXN_HPA_E	2	yes					
+BRM_AROMATIC_RHO	Aromatic ring-hydroxylating oxygenase potential	FUNCTIONAL_MODULE	aromatic_compound_biodegradation	BRXN_AROM_RHO	1	yes					
+BPWY_NAPHTHALENE_CANONICAL	Naphthalene to catechol canonical aerobic route	PATHWAY	PAH/aromatic degradation	BRXN_NAH_NDO	1	yes			multicomponent naphthalene dioxygenase	CURATED_ORDERED	SRC_NAHF_2012
+BPWY_NAPHTHALENE_CANONICAL	Naphthalene to catechol canonical aerobic route	PATHWAY	PAH/aromatic degradation	BRXN_NAH_B	2	yes				CURATED_ORDERED	SRC_NAHF_2012
+BPWY_NAPHTHALENE_CANONICAL	Naphthalene to catechol canonical aerobic route	PATHWAY	PAH/aromatic degradation	BRXN_NAH_C	3	yes				CURATED_ORDERED	SRC_NAHF_2012
+BPWY_NAPHTHALENE_CANONICAL	Naphthalene to catechol canonical aerobic route	PATHWAY	PAH/aromatic degradation	BRXN_NAH_D	4	yes				CURATED_ORDERED	SRC_NAHF_2012
+BPWY_NAPHTHALENE_CANONICAL	Naphthalene to catechol canonical aerobic route	PATHWAY	PAH/aromatic degradation	BRXN_NAH_E	5	yes				CURATED_ORDERED	SRC_NAHF_2012
+BPWY_NAPHTHALENE_CANONICAL	Naphthalene to catechol canonical aerobic route	PATHWAY	PAH/aromatic degradation	BRXN_NAH_F	6	yes				CURATED_ORDERED	SRC_NAHF_2012
+BPWY_NAPHTHALENE_CANONICAL	Naphthalene to catechol canonical aerobic route	PATHWAY	PAH/aromatic degradation	BRXN_NAH_G	7	yes			salicylate to catechol	CURATED_ORDERED	SRC_NAHF_2012
+BPWY_BIPHENYL_UPPER	Biphenyl/PCB upper aerobic pathway	PATHWAY	PCB/aromatic degradation	BRXN_BPH_A	1	yes			terminal oxygenase plus electron-transfer system required; architecture varies	CURATED_ORDERED_WITH_COMPONENT_CAUTION	SRC_BPH_REVIEW_2004
+BPWY_BIPHENYL_UPPER	Biphenyl/PCB upper aerobic pathway	PATHWAY	PCB/aromatic degradation	BRXN_BPH_B	2	yes				CURATED_ORDERED_WITH_COMPONENT_CAUTION	SRC_BPH_REVIEW_2004
+BPWY_BIPHENYL_UPPER	Biphenyl/PCB upper aerobic pathway	PATHWAY	PCB/aromatic degradation	BRXN_BPH_C	3	yes				CURATED_ORDERED_WITH_COMPONENT_CAUTION	SRC_BPH_REVIEW_2004
+BPWY_BIPHENYL_UPPER	Biphenyl/PCB upper aerobic pathway	PATHWAY	PCB/aromatic degradation	BRXN_BPH_D	4	yes			produces benzoate plus lower-pathway intermediate	CURATED_ORDERED_WITH_COMPONENT_CAUTION	SRC_BPH_REVIEW_2004
+BPWY_STYRENE_SIDECHAIN	Styrene side-chain oxygenation pathway	PATHWAY	aromatic hydrocarbon degradation	BRXN_STY_AB	1	yes			StyA requires StyB or equivalent reductase; fusion alternatives exist	CURATED_ORDERED_WITH_COMPONENT_CAUTION	SRC_STY_REVIEW_2018
+BPWY_STYRENE_SIDECHAIN	Styrene side-chain oxygenation pathway	PATHWAY	aromatic hydrocarbon degradation	BRXN_STY_C	2	yes				CURATED_ORDERED_WITH_COMPONENT_CAUTION	SRC_STY_REVIEW_2018
+BPWY_STYRENE_SIDECHAIN	Styrene side-chain oxygenation pathway	PATHWAY	aromatic hydrocarbon degradation	BRXN_STY_D	3	yes			phenylacetate product then enters phenylacetate catabolism	CURATED_ORDERED_WITH_COMPONENT_CAUTION	SRC_STY_REVIEW_2018
+BPWY_2_4_D_CLASSIC	2,4-D to beta-ketoadipate chlorocatechol route	PATHWAY	herbicide/chlorinated aromatic degradation	BRXN_TFD_A	1	yes			entry from 2,4-D	CURATED_ORDERED	SRC_TFD_2024
+BPWY_2_4_D_CLASSIC	2,4-D to beta-ketoadipate chlorocatechol route	PATHWAY	herbicide/chlorinated aromatic degradation	BRXN_TFD_B	2	yes				CURATED_ORDERED	SRC_TFD_2024
+BPWY_2_4_D_CLASSIC	2,4-D to beta-ketoadipate chlorocatechol route	PATHWAY	herbicide/chlorinated aromatic degradation	BRXN_TFD_C	3	yes				CURATED_ORDERED	SRC_TFD_2024
+BPWY_2_4_D_CLASSIC	2,4-D to beta-ketoadipate chlorocatechol route	PATHWAY	herbicide/chlorinated aromatic degradation	BRXN_TFD_D	4	yes				CURATED_ORDERED	SRC_TFD_2024
+BPWY_2_4_D_CLASSIC	2,4-D to beta-ketoadipate chlorocatechol route	PATHWAY	herbicide/chlorinated aromatic degradation	BRXN_TFD_E	5	yes				CURATED_ORDERED	SRC_TFD_2024
+BPWY_2_4_D_CLASSIC	2,4-D to beta-ketoadipate chlorocatechol route	PATHWAY	herbicide/chlorinated aromatic degradation	BRXN_TFD_F	6	yes				CURATED_ORDERED	SRC_TFD_2024
+BPWY_ATRAZINE_HYDROLYTIC	Atrazine hydrolytic mineralization route	PATHWAY	herbicide degradation	BRXN_ATZ_A	1	yes				CURATED_ORDERED_WITH_UNCERTAIN_INTERMEDIATE	SRC_ATZ_2023
+BPWY_ATRAZINE_HYDROLYTIC	Atrazine hydrolytic mineralization route	PATHWAY	herbicide degradation	BRXN_ATZ_B	2	yes				CURATED_ORDERED_WITH_UNCERTAIN_INTERMEDIATE	SRC_ATZ_2023
+BPWY_ATRAZINE_HYDROLYTIC	Atrazine hydrolytic mineralization route	PATHWAY	herbicide degradation	BRXN_ATZ_C	3	yes			cyanuric acid formed	CURATED_ORDERED_WITH_UNCERTAIN_INTERMEDIATE	SRC_ATZ_2023
+BPWY_ATRAZINE_HYDROLYTIC	Atrazine hydrolytic mineralization route	PATHWAY	herbicide degradation	BRXN_ATZ_D	4	yes				CURATED_ORDERED_WITH_UNCERTAIN_INTERMEDIATE	SRC_ATZ_2023
+BPWY_ATRAZINE_HYDROLYTIC	Atrazine hydrolytic mineralization route	PATHWAY	herbicide degradation	BRXN_ATZ_EG	5	yes			AtzE functions with AtzG in updated pathway model	CURATED_ORDERED_WITH_UNCERTAIN_INTERMEDIATE	SRC_ATZ_2023
+BPWY_ATRAZINE_HYDROLYTIC	Atrazine hydrolytic mineralization route	PATHWAY	herbicide degradation	BRXN_ATZ_INTERMEDIATE	6	no			mechanism toward allophanate remains uncertain; not used in completeness score	CURATED_ORDERED_WITH_UNCERTAIN_INTERMEDIATE	SRC_ATZ_2023
+BPWY_ATRAZINE_HYDROLYTIC	Atrazine hydrolytic mineralization route	PATHWAY	herbicide degradation	BRXN_ATZ_F	7	yes			terminal allophanate hydrolysis	CURATED_ORDERED_WITH_UNCERTAIN_INTERMEDIATE	SRC_ATZ_2023
+BPWY_HPA_HOMOPROTOCATECHUATE	4-Hydroxyphenylacetate via homoprotocatechuate	PATHWAY	aromatic degradation	BRXN_HPA_BC	1	yes			two-component monooxygenase	CURATED_ORDERED	SRC_HPA_LB400_2011
+BPWY_HPA_HOMOPROTOCATECHUATE	4-Hydroxyphenylacetate via homoprotocatechuate	PATHWAY	aromatic degradation	BRXN_HPA_D	2	yes				CURATED_ORDERED	SRC_HPA_LB400_2011
+BPWY_HPA_HOMOPROTOCATECHUATE	4-Hydroxyphenylacetate via homoprotocatechuate	PATHWAY	aromatic degradation	BRXN_HPA_E	3	yes				CURATED_ORDERED	SRC_HPA_LB400_2011
+BPWY_HPA_HOMOPROTOCATECHUATE	4-Hydroxyphenylacetate via homoprotocatechuate	PATHWAY	aromatic degradation	BRXN_HPA_F	4	yes				CURATED_ORDERED	SRC_HPA_LB400_2011
+BPWY_HPA_HOMOPROTOCATECHUATE	4-Hydroxyphenylacetate via homoprotocatechuate	PATHWAY	aromatic degradation	BRXN_HPA_G	5	yes				CURATED_ORDERED	SRC_HPA_LB400_2011
+BPWY_HPA_HOMOPROTOCATECHUATE	4-Hydroxyphenylacetate via homoprotocatechuate	PATHWAY	aromatic degradation	BRXN_HPA_H	6	yes				CURATED_ORDERED	SRC_HPA_LB400_2011
+BPWY_HPA_HOMOPROTOCATECHUATE	4-Hydroxyphenylacetate via homoprotocatechuate	PATHWAY	aromatic degradation	BRXN_HPA_I	7	yes				CURATED_ORDERED	SRC_HPA_LB400_2011
+BPWY_HPA_HOMOPROTOCATECHUATE	4-Hydroxyphenylacetate via homoprotocatechuate	PATHWAY	aromatic degradation	BRXN_HPA_SAD	8	no			succinate endpoint; optional downstream succinate-semialdehyde oxidation	CURATED_ORDERED	SRC_HPA_LB400_2011
+BPWY_GENTISATE	Gentisate ring-cleavage pathway	PATHWAY	aromatic degradation	BRXN_GENT_GDO	1	yes			common entry	CURATED_BRANCHING_ALTERNATIVES	SRC_GENT_2013
+BPWY_GENTISATE	Gentisate ring-cleavage pathway	PATHWAY	aromatic degradation	BRXN_GENT_MPI	2	yes	LOWER_ROUTE_ISOMERIZATION	GENTISATE_LOWER_ROUTE	alternative route A step 1	CURATED_BRANCHING_ALTERNATIVES	SRC_GENT_2015
+BPWY_GENTISATE	Gentisate ring-cleavage pathway	PATHWAY	aromatic degradation	BRXN_GENT_FPH	3	yes	LOWER_ROUTE_ISOMERIZATION	GENTISATE_LOWER_ROUTE	alternative route A step 2	CURATED_BRANCHING_ALTERNATIVES	SRC_GENT_2015
+BPWY_GENTISATE	Gentisate ring-cleavage pathway	PATHWAY	aromatic degradation	BRXN_GENT_MPH	2	yes	LOWER_ROUTE_DIRECT	GENTISATE_LOWER_ROUTE	alternative route B direct hydrolysis	CURATED_BRANCHING_ALTERNATIVES	SRC_GENT_2013
+BPWY_1_2_DCA	1,2-Dichloroethane aerobic degradation	PATHWAY	halogenated compound degradation	BRXN_DCA_DHLA	1	yes				CURATED_ORDERED_GENERIC_MIDDLE_STEPS_CAUTION	SRC_DCA_2008
+BPWY_1_2_DCA	1,2-Dichloroethane aerobic degradation	PATHWAY	halogenated compound degradation	BRXN_DCA_ADH	2	yes			generic enzyme family; pathway-specific assignment needs context	CURATED_ORDERED_GENERIC_MIDDLE_STEPS_CAUTION	SRC_DCA_2008
+BPWY_1_2_DCA	1,2-Dichloroethane aerobic degradation	PATHWAY	halogenated compound degradation	BRXN_DCA_ALDH	3	yes			generic enzyme family; pathway-specific assignment needs context	CURATED_ORDERED_GENERIC_MIDDLE_STEPS_CAUTION	SRC_DCA_2008
+BPWY_1_2_DCA	1,2-Dichloroethane aerobic degradation	PATHWAY	halogenated compound degradation	BRXN_DCA_DHLB	4	yes				CURATED_ORDERED_GENERIC_MIDDLE_STEPS_CAUTION	SRC_DCA_2008
+BPWY_ORGANOMERCURY	Broad-spectrum organomercury detoxification	PATHWAY	metal transformation	BRXN_MER_B	1	yes			organomercury C-Hg cleavage	CURATED_ORDERED	SRC_MERB_2015
+BPWY_ORGANOMERCURY	Broad-spectrum organomercury detoxification	PATHWAY	metal transformation	BRXN_MER_A	2	yes			Hg(II) reduction to Hg(0)	CURATED_ORDERED	SRC_MERB_2015
+BMOD_ALKB_TERMINAL_OX	AlkB-mediated alkane terminal oxidation module	FUNCTIONAL_MODULE	hydrocarbon degradation	BRXN_ALK_B	1	yes			initial alkane hydroxylation	CURATED_FUNCTIONAL_MODULE_NOT_FULL_PATHWAY	SRC_ALKB_2024
+BMOD_ALKB_TERMINAL_OX	AlkB-mediated alkane terminal oxidation module	FUNCTIONAL_MODULE	hydrocarbon degradation	BRXN_ALK_ET	2	no			electron-transfer architecture varies; supporting evidence only	CURATED_FUNCTIONAL_MODULE_NOT_FULL_PATHWAY	SRC_ALKB_2024
+BMOD_ALKB_TERMINAL_OX	AlkB-mediated alkane terminal oxidation module	FUNCTIONAL_MODULE	hydrocarbon degradation	BRXN_ALK_ADH	3	no			downstream generic alcohol oxidation; not scored for specific rescue	CURATED_FUNCTIONAL_MODULE_NOT_FULL_PATHWAY	SRC_ALKB_2024
+BMOD_ALKB_TERMINAL_OX	AlkB-mediated alkane terminal oxidation module	FUNCTIONAL_MODULE	hydrocarbon degradation	BRXN_ALK_ALDH	4	no			downstream generic aldehyde oxidation; not scored for specific rescue	CURATED_FUNCTIONAL_MODULE_NOT_FULL_PATHWAY	SRC_ALKB_2024
+BMOD_LADA_TERMINAL_OX	LadA-mediated long-chain alkane terminal oxidation module	FUNCTIONAL_MODULE	hydrocarbon degradation	BRXN_LADA	1	yes			initial long-chain alkane hydroxylation	CURATED_FUNCTIONAL_MODULE_NOT_FULL_PATHWAY	SRC_LADA_2013
+BMOD_LADA_TERMINAL_OX	LadA-mediated long-chain alkane terminal oxidation module	FUNCTIONAL_MODULE	hydrocarbon degradation	BRXN_ALK_ADH	2	no			downstream generic alcohol oxidation	CURATED_FUNCTIONAL_MODULE_NOT_FULL_PATHWAY	SRC_LADA_2013
+BMOD_LADA_TERMINAL_OX	LadA-mediated long-chain alkane terminal oxidation module	FUNCTIONAL_MODULE	hydrocarbon degradation	BRXN_ALK_ALDH	3	no			downstream generic aldehyde oxidation	CURATED_FUNCTIONAL_MODULE_NOT_FULL_PATHWAY	SRC_LADA_2013
+BMOD_OP_HYDROLYSIS	Organophosphate hydrolysis potential	FUNCTIONAL_MODULE	pesticide transformation	BRXN_OPD	1	yes			hydrolysis/detoxification only; downstream mineralization is substrate- and organism-dependent	CURATED_SINGLE_FUNCTION_MODULE	SRC_OPD_2006
+BMOD_AZO_REDUCTION	Azo-bond reduction potential	FUNCTIONAL_MODULE	dye transformation	BRXN_AZOR	1	yes			azo cleavage yields aromatic amines; this alone is not complete dye mineralization	CURATED_SINGLE_FUNCTION_MODULE	SRC_AZO_2018
+BMOD_ARS_METHYLATION	Arsenic methylation potential	FUNCTIONAL_MODULE	metalloid transformation	BRXN_ARSM	1	yes			methylation can change toxicity/volatility; report as transformation, not universal detoxification	CURATED_SINGLE_FUNCTION_MODULE	SRC_ARSM_2015
+BMOD_CUSA_COMPONENT	CusA copper/silver efflux component	FUNCTIONAL_MODULE	metal resistance	BRXN_CUSA	1	yes			CusA alone is a component signal, not proof of a complete CusCFBA system	CURATED_SINGLE_FUNCTION_MODULE	SRC_MER_OPERON_2012
+BMOD_XYLE_META_CLEAVAGE	Catechol meta-cleavage entry potential	FUNCTIONAL_MODULE	aromatic degradation	BRXN_XYL_E	1	yes			single reaction/module, not a complete toluene/xylene pathway	CURATED_SINGLE_FUNCTION_MODULE	SRC_NAHF_2012
+BMOD_4HBA_TO_PROTOCATECHUATE	4-Hydroxybenzoate to protocatechuate entry	FUNCTIONAL_MODULE	aromatic degradation	BRXN_PRAI_4HB	1	yes			Single peripheral entry reaction; does not by itself establish the complete downstream protocatechuate pathway.	CURATED_SINGLE_REACTION_ENTRY_MODULE	
+BMOD_3HBA_TO_PROTOCATECHUATE	3-Hydroxybenzoate to protocatechuate entry	FUNCTIONAL_MODULE	aromatic degradation	BRXN_MOBA_3HB	1	yes			Single peripheral entry reaction; does not by itself establish the complete downstream protocatechuate pathway.	CURATED_SINGLE_REACTION_ENTRY_MODULE	
+BMOD_ANTHRAQUINONE_DYE	Anthraquinone dye oxidative transformation potential			BRXN_DYP		yes	AQ_DYE_OX	DYP	DyP-supported anthraquinone dye transformation potential; not complete mineralization.		
+BMOD_ANTHRAQUINONE_DYE	Anthraquinone dye oxidative transformation potential			BRXN_LAC_MCO		yes	AQ_DYE_OX	LACCASE	Laccase/MCO-supported anthraquinone dye transformation potential; not complete mineralization.		
+BMOD_TRIPHENYLMETHANE_DYE	Triphenylmethane dye reductive decolorization potential			BRXN_TMR		yes			Experimentally characterized TMR supports reductive decolorization potential; not necessarily mineralization.		

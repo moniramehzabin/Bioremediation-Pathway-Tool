@@ -1,0 +1,6 @@
+reaction_id	accession	uniprot_id	label	source_id	status	reason
+BRXN_PCL_DEP	WP_004373894.1	A0A8I0SEY2	PCLase I / cutinase	SRC_PCL_DSWY01_2022	HELD_OUT	Direct recombinant PCL activity established; exact sequence not bundled in v0.3 until independently retrieved and checksum-verified.
+BRXN_PCL_DEP	WP_003239806.1	A0A8I0SFQ4	PCLase II / lipase	SRC_PCL_DSWY01_2022	HELD_OUT	Direct recombinant PCL activity established; exact sequence not bundled in v0.3 until independently retrieved and checksum-verified.
+BRXN_PU_DEP	WP_011061486.1		PueA / polyurethanase A	SRC_PU_PF5_2016	HELD_OUT	NCBI states this is identical replacement for YP_260307.1; sequence intentionally held out until exact FASTA is checksum-verified.
+BRXN_PU_DEP	YP_260310.1		PueB / polyurethanase B	SRC_PU_PF5_2016	HELD_OUT	Experimentally implicated in Pf-5 PU degradation; sequence intentionally held out until exact FASTA is checksum-verified.
+BRXN_PU_DEP	Q9X3C0	Q9X3C0	PueA / polyurethanase A, P. chlororaphis	SRC_PU_PUEA_2000	HELD_OUT	Cloned and characterized polyurethanase; exact UniProt sequence intentionally held out until checksum-verified.

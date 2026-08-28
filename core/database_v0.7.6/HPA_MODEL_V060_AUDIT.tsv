@@ -1,0 +1,6 @@
+reaction_id	reference_id	accession	shared_function_group	protein_name	organism	protein_existence	length_aa	sha256
+BRXN_HPA_E	BRT_HPA_E|P42269	P42269		5-carboxymethyl-2-hydroxymuconate semialdehyde dehydrogenase	Escherichia coli	1: Evidence at protein level	468	6bbf4cce5f4fd9945a70ab48e9096cacde878d987e0b2f4f30fcf7d1645ac80d
+BRXN_HPA_F	BRT_HPA_F|P37352	P37352	HPC_E_BIFUNCTIONAL	Homoprotocatechuate catabolism bifunctional isomerase/decarboxylase	Escherichia coli	1: Evidence at protein level	427	8560e7cb079a68118138becb298936030d7c7ad6573acda61990932288e0982a
+BRXN_HPA_G	BRT_HPA_G|P37352	P37352	HPC_E_BIFUNCTIONAL	Homoprotocatechuate catabolism bifunctional isomerase/decarboxylase	Escherichia coli	1: Evidence at protein level	427	8560e7cb079a68118138becb298936030d7c7ad6573acda61990932288e0982a
+BRXN_HPA_H	BRT_HPA_H|P42270	P42270		2-oxo-hept-4-ene-1,7-dioate hydratase	Escherichia coli	1: Evidence at protein level	267	68cf7333e1fb8b3c4f4084cfbcff8399a5b685796991cb735648f9dc29794b16
+BRXN_HPA_I	BRT_HPA_I|Q47098	Q47098		4-hydroxy-2-oxo-heptane-1,7-dioate aldolase	Escherichia coli	1: Evidence at protein level	262	29619dcf34d9c6f1b6248e31711cccbf87f30b80ea81652220e59e60b50365ee

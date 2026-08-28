@@ -1,0 +1,82 @@
+reaction_id	enzyme_name	gene_family	ec_number	substrates	products	reaction_type	evidence_class	source_id	reference_status	active	canonical_reaction_id	model_status
+BRXN_CAT_A	Catechol 1,2-dioxygenase	catA/pheB	1.13.11.1	catechol + O2	cis,cis-muconate + 2 H+	metabolic	reviewed_reference			yes	BRXN_CAT_A	ACTIVE
+BRXN_CAT_B	Muconate cycloisomerase	catB	5.5.1.1	cis,cis-muconate + H+	(S)-muconolactone	metabolic	experimentally_characterized			yes	BRXN_CAT_B	ACTIVE
+BRXN_CAT_C	Muconolactone delta-isomerase	catC	5.3.3.4	(S)-muconolactone	3-oxoadipate enol-lactone	metabolic	experimentally_characterized			yes	BRXN_CAT_C	ACTIVE
+BRXN_PCA_GH	Protocatechuate 3,4-dioxygenase	pcaG+pcaH	1.13.11.3	protocatechuate + O2	3-carboxy-cis,cis-muconate + 2 H+	metabolic	experimentally_characterized			yes	BRXN_PCA_GH	ACTIVE
+BRXN_PCA_B	3-carboxy-cis,cis-muconate cycloisomerase	pcaB	5.5.1.2	3-carboxy-cis,cis-muconate + H+	4-carboxymuconolactone	metabolic	reviewed_reference			yes	BRXN_PCA_B	ACTIVE
+BRXN_PCA_C	4-carboxymuconolactone decarboxylase	pcaC	4.1.1.44	4-carboxymuconolactone + H+	3-oxoadipate enol-lactone + CO2	metabolic	reviewed_reference			yes	BRXN_PCA_C	ACTIVE
+BRXN_PCA_D	3-oxoadipate enol-lactonase	pcaD/catD	3.1.1.24	3-oxoadipate enol-lactone + H2O	3-oxoadipate + H+	metabolic	reviewed_reference			yes	BRXN_PCA_D	ACTIVE
+BRXN_PCA_IJ	3-oxoadipate CoA-transferase	pcaI+pcaJ	2.8.3.6	3-oxoadipate + succinyl-CoA	3-oxoadipyl-CoA + succinate	metabolic	experimentally_characterized			yes	BRXN_PCA_IJ	ACTIVE
+BRXN_PCA_F	Beta-ketoadipyl-CoA thiolase	pcaF	2.3.1.174	3-oxoadipyl-CoA + CoA	succinyl-CoA + acetyl-CoA	metabolic	reviewed_reference			yes	BRXN_PCA_F	ACTIVE
+BRXN_CHRR_CRVI	ChrR-associated chromate reduction activity	chrR/yieF-like		Cr(VI) + NAD(P)H + O2	Cr(III) + oxidized NAD(P)+ + superoxide	detoxification	experimentally_characterized			yes	BRXN_CHRR_CRVI	ACTIVE
+BRXN_CHRA_EFFLUX	Chromate efflux transporter	chrA		chromate [cytosol]	chromate [outside]	transport	curated_family			yes	BRXN_CHRA_EFFLUX	ACTIVE
+BRXN_ARS_C	Arsenate reductase	arsC	1.20.4.4	arsenate [As(V)]	arsenite [As(III)]	detoxification	curated_family			yes	BRXN_ARS_C	ACTIVE
+BRXN_ARS_EFFLUX	Arsenite efflux transporter	arsB/acr3		arsenite [cytosol]	arsenite [outside]	transport	curated_family			yes	BRXN_ARS_EFFLUX	ACTIVE
+BRXN_MERA_HGII	Mercury(II) reductase MerA	merA	1.16.1.1	Hg(II) + NADPH	Hg(0) + NADP+	detoxification	curated_family			yes	BRXN_MERA_HGII	ACTIVE
+BRXN_COP_ATPASE	Copper-exporting P-type ATPase	copA/copB		Cu ion [cytosol]	Cu ion [outside/periplasm]	transport	curated_family			yes	BRXN_COP_ATPASE	ACTIVE
+BRXN_CAD_CZC_EFFLUX	Cadmium/zinc/cobalt efflux system	cadA/czcD		Cd/Zn/Co ion [cytosol]	Cd/Zn/Co ion [outside]	transport	curated_family			yes	BRXN_CAD_CZC_EFFLUX	ACTIVE
+BRXN_DYP	DyP-type dye-decolorizing peroxidase	dyp/dyp2		dye/aromatic substrate + peroxide	oxidized products	redox_support	curated_family			yes	BRXN_DYP	ACTIVE
+BRXN_LAC_MCO	Laccase/multicopper oxidase-like activity	laccase/multicopper_oxidase		phenolic/aromatic substrate + O2	oxidized products + H2O	redox_support	supporting_only			yes	BRXN_LAC_MCO	ACTIVE
+BRXN_DHMA	Haloalkane dehalogenase	dhmA		haloalkane + H2O	alcohol + halide	detoxification	curated_family			yes	BRXN_DHMA	ACTIVE
+BRXN_FCBB2	4-chlorobenzoyl-CoA dehalogenase	fcbB/fcbB2		4-chlorobenzoyl-CoA	4-hydroxybenzoyl-CoA + chloride	detoxification	curated_family			yes	BRXN_FCBB2	ACTIVE
+BRXN_PRAI_4HB	4-hydroxybenzoate 3-monooxygenase	praI/pobA	1.14.14.92	4-hydroxybenzoate + reduced flavin/O2	protocatechuate	metabolic	curated_family			yes	BRXN_PRAI_4HB	ACTIVE
+BRXN_MOBA_3HB	3-hydroxybenzoate 4-monooxygenase	mobA		3-hydroxybenzoate + O2 + reductant	protocatechuate	metabolic	curated_family			yes	BRXN_MOBA_3HB	ACTIVE
+BRXN_HPAD	3,4-dihydroxyphenylacetate 2,3-dioxygenase	hpaD		3,4-dihydroxyphenylacetate + O2	ring-cleavage product	metabolic	curated_family			no	BRXN_HPA_D	LEGACY_ALIAS
+BRXN_HPAE	5-carboxymethyl-2-hydroxymuconate semialdehyde dehydrogenase	hpaE		ring-cleavage semialdehyde + NAD+	oxidized ring-cleavage product	metabolic	curated_family			no	BRXN_HPA_E	LEGACY_ALIAS
+BRXN_AROM_RHO	Aromatic ring-hydroxylating oxygenase alpha subunit	ring_hydroxylating_oxygenase		aromatic substrate + O2	hydroxylated aromatic product	metabolic	supporting_only			yes	BRXN_AROM_RHO	ACTIVE
+BRXN_NAH_NDO	naphthalene dioxygenase multicomponent system	NahAa/NahAb/NahAc/NahAd		naphthalene	cis-1,2-dihydroxy-1,2-dihydronaphthalene	metabolic	curated_topology	SRC_NAHF_2012	placeholder_no_active_ref	yes	BRXN_NAH_NDO	ACTIVE
+BRXN_NAH_B	cis-naphthalene dihydrodiol dehydrogenase	nahB		cis-naphthalene dihydrodiol	1,2-dihydroxynaphthalene	metabolic	curated_topology	SRC_NAHF_2012	placeholder_no_active_ref	yes	BRXN_NAH_B	ACTIVE
+BRXN_NAH_C	1,2-dihydroxynaphthalene dioxygenase	nahC		1,2-dihydroxynaphthalene	2-hydroxychromene-2-carboxylate	metabolic	curated_topology	SRC_NAHF_2012	active_target_BRT_NAH_C	yes	BRXN_NAH_C	ACTIVE
+BRXN_NAH_D	2-hydroxychromene-2-carboxylate isomerase	nahD		2-hydroxychromene-2-carboxylate	trans-o-hydroxybenzylidenepyruvate	metabolic	curated_topology	SRC_NAHF_2012	active_target_BRT_NAH_D	yes	BRXN_NAH_D	ACTIVE
+BRXN_NAH_E	trans-o-hydroxybenzylidenepyruvate hydratase-aldolase	nahE		trans-o-hydroxybenzylidenepyruvate	salicylaldehyde + pyruvate	metabolic	curated_topology	SRC_NAHF_2012	active_target_BRT_NAH_E	yes	BRXN_NAH_E	ACTIVE
+BRXN_NAH_F	salicylaldehyde dehydrogenase	nahF		salicylaldehyde	salicylate	metabolic	curated_topology	SRC_NAHF_2012	active_target_BRT_NAH_F	yes	BRXN_NAH_F	ACTIVE
+BRXN_NAH_G	salicylate hydroxylase	nahG		salicylate	catechol	metabolic	curated_topology	SRC_NAHF_2012	active_target_BRT_NAH_G	yes	BRXN_NAH_G	ACTIVE
+BRXN_XYL_E	catechol 2,3-dioxygenase	xylE/nahH		catechol	2-hydroxymuconic semialdehyde	metabolic	curated_topology	SRC_NAHF_2012	active_target_BRT_XYL_E	yes	BRXN_XYL_E	ACTIVE
+BRXN_BPH_A	biphenyl dioxygenase	bphA system		biphenyl	cis-biphenyl dihydrodiol	metabolic	curated_topology	SRC_BPH_REVIEW_2004	active_A1_A2_but_electron_transfer_components_may_vary	yes	BRXN_BPH_A	ACTIVE
+BRXN_BPH_B	biphenyl dihydrodiol dehydrogenase	bphB		cis-biphenyl dihydrodiol	2,3-dihydroxybiphenyl	metabolic	curated_topology	SRC_BPH_REVIEW_2004	active_target_BRT_BPH_B	yes	BRXN_BPH_B	ACTIVE
+BRXN_BPH_C	2,3-dihydroxybiphenyl 1,2-dioxygenase	bphC		2,3-dihydroxybiphenyl	HOPDA	metabolic	curated_topology	SRC_BPH_REVIEW_2004	active_target_BRT_BPH_C	yes	BRXN_BPH_C	ACTIVE
+BRXN_BPH_D	HOPDA hydrolase	bphD		HOPDA	benzoate + 2-hydroxypenta-2,4-dienoate	metabolic	curated_topology	SRC_BPH_REVIEW_2004	active_target_BRT_BPH_D	yes	BRXN_BPH_D	ACTIVE
+BRXN_STY_AB	styrene monooxygenase system	styA+styB		styrene	styrene oxide	metabolic	curated_topology	SRC_STY_REVIEW_2018	StyA_active_StyB_placeholder	yes	BRXN_STY_AB	ACTIVE
+BRXN_STY_C	styrene oxide isomerase	styC		styrene oxide	phenylacetaldehyde	metabolic	curated_topology	SRC_STY_REVIEW_2018	active_target_BRT_STY_C	yes	BRXN_STY_C	ACTIVE
+BRXN_STY_D	phenylacetaldehyde dehydrogenase	styD/feaB		phenylacetaldehyde	phenylacetate	metabolic	curated_topology	SRC_STY_REVIEW_2018	active_target_BRT_STY_D	yes	BRXN_STY_D	ACTIVE
+BRXN_TFD_A	2,4-D/alpha-ketoglutarate dioxygenase entry step	tfdA		2,4-D	2,4-dichlorophenol	metabolic	curated_topology	SRC_TFD_2024	placeholder_no_active_ref	yes	BRXN_TFD_A	ACTIVE
+BRXN_TFD_B	2,4-dichlorophenol 6-monooxygenase	tfdB		2,4-dichlorophenol	chlorocatechol	metabolic	curated_topology	SRC_TFD_2024	active_target_BRT_TFD_B	yes	BRXN_TFD_B	ACTIVE
+BRXN_TFD_C	chlorocatechol 1,2-dioxygenase	tfdC		chlorocatechol	chloromuconate	metabolic	curated_topology	SRC_TFD_2024	active_target_BRT_TFD_C	yes	BRXN_TFD_C	ACTIVE
+BRXN_TFD_D	chloromuconate cycloisomerase	tfdD		chloromuconate	chlorodienelactone	metabolic	curated_topology	SRC_TFD_2024	active_target_BRT_TFD_D	yes	BRXN_TFD_D	ACTIVE
+BRXN_TFD_E	dienelactone hydrolase	tfdE/clcD		chlorodienelactone	chloromaleylacetate	metabolic	curated_topology	SRC_TFD_2024	active_target_BRT_TFD_E	yes	BRXN_TFD_E	ACTIVE
+BRXN_TFD_F	maleylacetate reductase	tfdF/clcE		chloromaleylacetate/maleylacetate	beta-ketoadipate	metabolic	curated_topology	SRC_TFD_2024	active_target_BRT_TFD_F	yes	BRXN_TFD_F	ACTIVE
+BRXN_ATZ_A	atrazine hydrolytic dechlorination entry	atzA/trzN		atrazine	hydroxyatrazine	metabolic	curated_topology	SRC_ATZ_2023	active_target_BRT_ATZ_A	yes	BRXN_ATZ_A	ACTIVE
+BRXN_ATZ_B	hydroxyatrazine ethylaminohydrolase	atzB		hydroxyatrazine	N-isopropylammelide	metabolic	curated_topology	SRC_ATZ_2023	placeholder_no_active_ref	yes	BRXN_ATZ_B	ACTIVE
+BRXN_ATZ_C	N-isopropylammelide isopropylaminohydrolase	atzC		N-isopropylammelide	cyanuric acid	metabolic	curated_topology	SRC_ATZ_2023	placeholder_no_active_ref	yes	BRXN_ATZ_C	ACTIVE
+BRXN_ATZ_D	cyanuric acid hydrolase	atzD/trzD		cyanuric acid	1-carboxybiuret	metabolic	curated_topology	SRC_ATZ_2023	placeholder_no_active_ref	yes	BRXN_ATZ_D	ACTIVE
+BRXN_ATZ_EG	1-carboxybiuret hydrolase complex	atzE+atzG		1-carboxybiuret	1,3-dicarboxyurea	metabolic	curated_topology	SRC_ATZ_2023	AtzE_active_AtzG_placeholder	yes	BRXN_ATZ_EG	ACTIVE
+BRXN_ATZ_INTERMEDIATE	conversion toward allophanate	atzH?		1,3-dicarboxyurea	allophanate	metabolic	curated_topology	SRC_ATZ_2023	MECHANISM_UNCERTAIN_not_scored	yes	BRXN_ATZ_INTERMEDIATE	ACTIVE
+BRXN_ATZ_F	allophanate hydrolase	atzF		allophanate	ammonia + carbon dioxide	metabolic	curated_topology	SRC_ATZ_2023	active_target_BRT_ATZ_F	yes	BRXN_ATZ_F	ACTIVE
+BRXN_HPA_BC	4-hydroxyphenylacetate 3-monooxygenase system	hpaB+hpaC		4-hydroxyphenylacetate	homoprotocatechuate	metabolic	curated_topology	SRC_HPA_LB400_2011	B_and_C_active	yes	BRXN_HPA_BC	ACTIVE
+BRXN_HPA_D	homoprotocatechuate 2,3-dioxygenase	hpaD		homoprotocatechuate	CHMS	metabolic	curated_topology	SRC_HPA_LB400_2011	existing_old_layer	yes	BRXN_HPA_D	ACTIVE
+BRXN_HPA_E	CHMS dehydrogenase	hpaE		CHMS	CHM	metabolic	curated_topology	SRC_HPA_LB400_2011	existing_old_layer	yes	BRXN_HPA_E	ACTIVE
+BRXN_HPA_F	CHM isomerase	hpaF		CHM	OPET	metabolic	curated_topology	SRC_HPA_LB400_2011	placeholder_no_active_ref	yes	BRXN_HPA_F	ACTIVE
+BRXN_HPA_G	OPET decarboxylase	hpaG		OPET	downstream meta-cleavage intermediate	metabolic	curated_topology	SRC_HPA_LB400_2011	placeholder_no_active_ref	yes	BRXN_HPA_G	ACTIVE
+BRXN_HPA_H	downstream hydratase	hpaH		downstream meta-cleavage intermediate	downstream aldol substrate	metabolic	curated_topology	SRC_HPA_LB400_2011	placeholder_no_active_ref	yes	BRXN_HPA_H	ACTIVE
+BRXN_HPA_I	aldolase	hpaI		downstream aldol substrate	pyruvate + succinic semialdehyde	metabolic	curated_topology	SRC_HPA_LB400_2011	placeholder_no_active_ref	yes	BRXN_HPA_I	ACTIVE
+BRXN_HPA_SAD	succinic semialdehyde dehydrogenase	sad		succinic semialdehyde	succinate	metabolic	curated_topology	SRC_HPA_LB400_2011	placeholder_no_active_ref	yes	BRXN_HPA_SAD	ACTIVE
+BRXN_GENT_GDO	gentisate 1,2-dioxygenase	gdo/hbzE/mhbD		gentisate	maleylpyruvate	metabolic	curated_topology	SRC_GENT_2013	active_target_BRT_GDO_A	yes	BRXN_GENT_GDO	ACTIVE
+BRXN_GENT_MPI	maleylpyruvate isomerase	maleylpyruvate isomerase		maleylpyruvate	fumarylpyruvate	metabolic	curated_topology	SRC_GENT_2015	placeholder_alternative_route	yes	BRXN_GENT_MPI	ACTIVE
+BRXN_GENT_FPH	fumarylpyruvate hydrolase	fumarylpyruvate hydrolase		fumarylpyruvate	fumarate + pyruvate	metabolic	curated_topology	SRC_GENT_2015	placeholder_alternative_route	yes	BRXN_GENT_FPH	ACTIVE
+BRXN_GENT_MPH	maleylpyruvate hydrolase	hbzF		maleylpyruvate	maleate + pyruvate	metabolic	curated_topology	SRC_GENT_2013	placeholder_alternative_route	yes	BRXN_GENT_MPH	ACTIVE
+BRXN_DCA_DHLA	haloalkane dehalogenase	dhlA		1,2-dichloroethane	2-chloroethanol	metabolic	curated_topology	SRC_DCA_2008	active_target_BRT_DHL_A	yes	BRXN_DCA_DHLA	ACTIVE
+BRXN_DCA_ADH	chloroethanol oxidation	alcohol dehydrogenase		2-chloroethanol	chloroacetaldehyde	metabolic	curated_topology	SRC_DCA_2008	placeholder_generic_family_not_for_direct_rescue	yes	BRXN_DCA_ADH	ACTIVE
+BRXN_DCA_ALDH	chloroacetaldehyde oxidation	aldehyde dehydrogenase		chloroacetaldehyde	chloroacetate	metabolic	curated_topology	SRC_DCA_2008	placeholder_generic_family_not_for_direct_rescue	yes	BRXN_DCA_ALDH	ACTIVE
+BRXN_DCA_DHLB	haloacid dehalogenase	dhlB		chloroacetate	glycolate	metabolic	curated_topology	SRC_DCA_2008	placeholder_no_active_ref	yes	BRXN_DCA_DHLB	ACTIVE
+BRXN_MER_B	organomercurial lyase	merB		organomercury	Hg(II) + hydrocarbon product	metabolic	curated_topology	SRC_MERB_2015	active_target_BRT_MER_B	yes	BRXN_MER_B	ACTIVE
+BRXN_MER_A	mercuric reductase	merA		Hg(II)	Hg(0)	metabolic	curated_topology	SRC_MERB_2015	existing_old_layer	yes	BRXN_MER_A	ACTIVE
+BRXN_ALK_B	alkane 1-monooxygenase	alkB		n-alkane	primary alcohol	metabolic	curated_topology	SRC_ALKB_2024	active_target_BRT_ALK_B	yes	BRXN_ALK_B	ACTIVE
+BRXN_ALK_ET	electron transfer support for AlkB	alkG+alkT or equivalent		NADH	reduced AlkB electron-transfer chain	redox_support	curated_topology	SRC_ALKB_2024	architecture_variable_not_scored	yes	BRXN_ALK_ET	ACTIVE
+BRXN_ALK_ADH	primary alcohol oxidation	alcohol dehydrogenase		primary alcohol	aldehyde	metabolic	curated_topology	SRC_ALKB_2024	placeholder_generic_family_not_for_direct_rescue	yes	BRXN_ALK_ADH	ACTIVE
+BRXN_ALK_ALDH	aldehyde oxidation	aldehyde dehydrogenase		aldehyde	fatty acid	metabolic	curated_topology	SRC_ALKB_2024	placeholder_generic_family_not_for_direct_rescue	yes	BRXN_ALK_ALDH	ACTIVE
+BRXN_LADA	long-chain alkane monooxygenase	ladA		long-chain n-alkane	primary alcohol	metabolic	curated_topology	SRC_LADA_2013	active_target_BRT_LAD_A	yes	BRXN_LADA	ACTIVE
+BRXN_OPD	organophosphorus hydrolase	opd/opdA-like		organophosphate substrate	hydrolysis products	metabolic	curated_topology	SRC_OPD_2006	active_target_BRT_OPD	yes	BRXN_OPD	ACTIVE
+BRXN_AZOR	azoreductase	azoR		azo dye	aromatic amines	metabolic	curated_topology	SRC_AZO_2018	active_target_BRT_AZO_R	yes	BRXN_AZOR	ACTIVE
+BRXN_ARSM	As(III) SAM methyltransferase	arsM		As(III)	methylated arsenic species	metabolic	curated_topology	SRC_ARSM_2015	active_target_BRT_ARS_M	yes	BRXN_ARSM	ACTIVE
+BRXN_CUSA	CusA RND-family efflux pump component	cusA		Cu/Ag stress	efflux contribution	transport	curated_topology	SRC_MER_OPERON_2012	active_target_BRT_CUS_A_component_only	yes	BRXN_CUSA	ACTIVE
+BRXN_TMR	Triphenylmethane reductase	tmr				metabolic						

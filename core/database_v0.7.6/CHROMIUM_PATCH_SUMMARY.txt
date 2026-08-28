@@ -1,0 +1,9 @@
+Patch version: 0.5.3b-chromium-patch
+Source DB: Bioremediation_DB_v0.5.2
+Added reviewed chromium references: 6
+Total reference proteins after patch: 305
+BRXN_CHRR_CRVI references: 3
+BRXN_CHRA_EFFLUX references: 3
+Reactions/pathways copied unchanged.
+DIAMOND thresholds unchanged.
+No InterPro IDs/domain terms invented.

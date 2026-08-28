@@ -1,0 +1,4 @@
+reaction_id	reference_id	accession	protein_name	organism	entry_type	length_aa	sha256
+BRXN_DCA_DHLB	BRT_DCA_DHLB|Q60099	Q60099	(S)-2-haloacid dehalogenase	Xanthobacter autotrophicus	UniProtKB reviewed (Swiss-Prot)	253	58d2d368ffdd947a362ea66957e02119c8bd8d7bf739f3d0c2920501228fa9a2
+BRXN_ATZ_C	BRT_ATZ_C|O52063	O52063	N-isopropylammelide isopropyl amidohydrolase	Pseudomonas sp. (strain ADP)	UniProtKB reviewed (Swiss-Prot)	403	00073064a60d4804f552f42f63eb3fecfa405b8e656960dc44978ca077afc00b
+BRXN_ATZ_D	BRT_ATZ_D|P58329	P58329	Cyanuric acid amidohydrolase	Pseudomonas sp. (strain ADP)	UniProtKB reviewed (Swiss-Prot)	363	0cdf27313c608da2d2cc71e28c20aeee50d6cc46e960f33d6472ce3e85fb22b1

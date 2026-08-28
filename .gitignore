@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.dmnd
+*_RUN.log
+*_RUN_MANIFEST.json
+*_normalized_input.gbk
+*_GENBANK_INPUT_AUDIT.txt
+*_candidates.faa
+*_proteome.faa
+*_diamond_raw.tsv
+*_all_candidates.tsv
+*_reaction_evidence*.tsv
+*_pathway_summary.tsv
+*_TABLE_REPORT.html
+*_VISUAL_REPORT.html
+.DS_Store
+Thumbs.db

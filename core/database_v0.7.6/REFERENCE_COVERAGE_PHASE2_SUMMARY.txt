@@ -1,0 +1,6 @@
+Patch 0.5.4-reference-coverage-phase2
+Added authentic reviewed references: 3
+Total reference proteins: 312
+Targets: BRXN_DCA_DHLB, BRXN_ATZ_C, BRXN_ATZ_D
+No reactions/pathways/thresholds/evidence rules changed.
+PcaGH remains deferred until component-aware rescue is implemented.

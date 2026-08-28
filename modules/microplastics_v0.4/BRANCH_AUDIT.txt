@@ -1,0 +1,24 @@
+Microplastics Optional Branch v0.3 — PET + PCL
+Build audit
+========================================================================
+01. PASS — Python syntax compile — 13 files
+02. PASS — Exact reaction set — 5 reactions: PET/TPA 4 + PCL 1
+03. PASS — Exact pathway/module set — 4 pathway/module IDs
+04. PASS — No orphan reaction references
+05. PASS — Source registry coverage — 5 curated sources
+06. PASS — Reference protein count — 7 total
+07. PASS — Q6A0I4 PCL seed checksum — 301 aa; SHA-256 verified
+08. PASS — PCL metadata/FASTA checksum linkage
+09. PASS — Held-out PCLase I/II safety — documented but not invented/bundled
+10. PASS — Copper ATPase contamination — NONE in operational data
+11. PASS — PCL exact-alias specificity — generic cutinase/lipase/esterase excluded
+12. PASS — PET v0.2 regression lock — all PET/TPA rows + 6 sequences unchanged
+13. PASS — PCL strict sequence gate regression — 55% -> REVIEW; 65% -> keep; exact annotation -> keep
+14. PASS — Branch integrity regression
+15. PASS — InterPro policy coverage — 5/5 reactions
+16. PASS — TPADO component rule — TphA1+A2+A3 all required
+17. PASS — CLI documentation — positional GenBank; no --gbk mistake
+
+Total checks: 17
+Result: PASS
+Main v0.7.6 database is external/read-only and hash-guarded before every branch run.

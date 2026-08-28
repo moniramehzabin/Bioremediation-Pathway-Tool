@@ -1,0 +1,17 @@
+reaction_id	component_id	gene_family	target_id	required	notes
+BRXN_PCA_GH	A	pcaG		yes	Alpha chain of heteromultimeric protocatechuate 3,4-dioxygenase.
+BRXN_PCA_GH	B	pcaH		yes	Beta chain; contains the catalytic Fe(III)-binding center.
+BRXN_PCA_IJ	A	pcaI		yes	Subunit A of heterodimeric 3-oxoadipate CoA-transferase.
+BRXN_PCA_IJ	B	pcaJ		yes	Subunit B of heterodimeric 3-oxoadipate CoA-transferase.
+BRXN_BPH_A	BphA1	bphA1	BRT_BPH_A1	yes	terminal oxygenase large subunit
+BRXN_BPH_A	BphA2	bphA2	BRT_BPH_A2	yes	terminal oxygenase small subunit
+BRXN_STY_AB	StyA	styA	BRT_STY_A	yes	oxygenase component
+BRXN_STY_AB	StyB	styB	BRT_STY_B	yes	FAD reductase component; no active reference yet
+BRXN_HPA_BC	HpaB	hpaB	BRT_HPA_B	yes	oxygenase component
+BRXN_HPA_BC	HpaC	hpaC	BRT_HPA_C	yes	reductase component
+BRXN_ATZ_EG	AtzE	atzE	BRT_ATZ_E	yes	hydrolase component
+BRXN_ATZ_EG	AtzG	atzG	BRT_ATZ_G	yes	small partner protein; no active reference yet
+BRXN_NAH_NDO	RED	nagAa/ndoR/nahAa		yes	NDO ferredoxin reductase electron-transfer component.
+BRXN_NAH_NDO	FDX	nagAb/ndoA/nahAb		yes	NDO Rieske ferredoxin electron-transfer component.
+BRXN_NAH_NDO	ALPHA	nagAc/ndoB/nahAc		yes	NDO catalytic large oxygenase alpha component.
+BRXN_NAH_NDO	BETA	nagAd/ndoC/nahAd		yes	NDO small oxygenase beta component.

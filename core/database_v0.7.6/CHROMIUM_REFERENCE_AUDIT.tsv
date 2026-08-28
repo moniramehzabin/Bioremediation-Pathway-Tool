@@ -1,0 +1,7 @@
+reference_id	reaction_id	accession	gene_names	protein_name	organism	length_aa	entry_type	sequence_sha256	status
+BRT_CHR_R|Q88FF8	BRXN_CHRR_CRVI	Q88FF8	chrR	Quinone reductase	Pseudomonas putida (strain ATCC 47054 / DSM 6125 / CFBP 8728 / NCIMB 11950 / KT2440)	186	UniProtKB reviewed (Swiss-Prot)	c2fbd9c0240904dac8289a9925a34ee800919bbb6fbf62d9576a2283e6ac2293	ADDED
+BRT_CHR_R|P0AGE6	BRXN_CHRR_CRVI	P0AGE6	chrR	Quinone reductase	Escherichia coli (strain K12)	188	UniProtKB reviewed (Swiss-Prot)	c4f9c368d16aaee238460aae00374d3c534341c6418b6695794cb64cd2a063aa	ADDED
+BRT_CHR_R|Q93T20	BRXN_CHRR_CRVI	Q93T20	chrR	Quinone reductase	Pseudomonas putida	186	UniProtKB reviewed (Swiss-Prot)	f5c1d519af8c9ac85d98cb6ac9d4f6c732518b98026c13eae3bd06ba52adb08a	ADDED
+BRT_CHR_A|O05215	BRXN_CHRA_EFFLUX	O05215	chrA	Chromate transport protein chrA	Bacillus subtilis (strain 168)	178	UniProtKB reviewed (Swiss-Prot)	1d5dc5489d1e2b6c3a2b4eee578685e9c78586e16e3d2631439dd8c5b99e1fb6	ADDED
+BRT_CHR_A|P14285	BRXN_CHRA_EFFLUX	P14285	chrA	Chromate transport protein	Pseudomonas aeruginosa	416	UniProtKB reviewed (Swiss-Prot)	fe9e3b4bf0beabaa9705a73809cc0c6b1f140da70edea6936e35d38b348e769d	ADDED
+BRT_CHR_A|P17551	BRXN_CHRA_EFFLUX	P17551	chrA1	Chromate transport protein	Cupriavidus metallidurans (strain ATCC 43123 / DSM 2839 / NBRC 102507 / CH34)	401	UniProtKB reviewed (Swiss-Prot)	37d0b9aa46207e61be31b99761bfc0fe2297709cfbc94399020e987d79bb94dd	ADDED

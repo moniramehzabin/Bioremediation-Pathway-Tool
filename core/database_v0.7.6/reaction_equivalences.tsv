@@ -1,0 +1,3 @@
+alias_reaction_id	canonical_reaction_id	relationship	reason
+BRXN_HPAE	BRXN_HPA_E	SAME_BIOCHEMICAL_REACTION	Both model CHMS dehydrogenase / 5-carboxymethyl-2-hydroxymuconate semialdehyde dehydrogenase.
+BRXN_HPAD	BRXN_HPA_D	SAME_BIOCHEMICAL_REACTION	3,4-dihydroxyphenylacetate is homoprotocatechuate; duplicate dioxygenase model.

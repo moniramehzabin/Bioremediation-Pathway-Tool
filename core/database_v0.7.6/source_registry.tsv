@@ -1,0 +1,20 @@
+source_id	title	url	source_type
+SRC_NAHF_2012	Naphthalene degradation upper/lower pathway in Pseudomonas putida G7	https://pmc.ncbi.nlm.nih.gov/articles/PMC3253845/	primary/reviewed pathway description
+SRC_BPH_REVIEW_2004	Biphenyl dioxygenases and Bph upper pathway	https://pmc.ncbi.nlm.nih.gov/articles/PMC490896/	review
+SRC_BPH_RHA1_2001	Aerobic biphenyl/PCB pathway and bph components	https://pmc.ncbi.nlm.nih.gov/articles/PMC95491/	primary pathway description
+SRC_STY_REVIEW_2018	Styrene side-chain oxygenation cascade StyABCD	https://pmc.ncbi.nlm.nih.gov/articles/PMC5874493/	review
+SRC_ATZ_2023	Updated Atz atrazine catabolic pathway	https://pmc.ncbi.nlm.nih.gov/articles/PMC7615792/	primary/reviewed mechanistic update
+SRC_ATZ_CLASSIC_2005	AtzA-F atrazine mineralization pathway	https://pmc.ncbi.nlm.nih.gov/articles/PMC1112067/	primary
+SRC_HPA_1995	Complete 4-hydroxyphenylacetate catabolic gene cluster	https://pmc.ncbi.nlm.nih.gov/articles/PMC177627/	primary
+SRC_HPA_LB400_2011	4-HPA to homoprotocatechuate and lower meta-cleavage route	https://pmc.ncbi.nlm.nih.gov/articles/PMC3053370/	primary
+SRC_TFD_2024	2,4-D to chlorocatechol route overview	https://pmc.ncbi.nlm.nih.gov/articles/PMC11677524/	review
+SRC_GENT_2013	Gentisate pathway and alternative maleylpyruvate routes	https://pmc.ncbi.nlm.nih.gov/articles/PMC3568541/	primary
+SRC_GENT_2015	Alternative gentisate maleylpyruvate routes	https://pmc.ncbi.nlm.nih.gov/articles/PMC4551245/	primary
+SRC_DCA_2008	1,2-dichloroethane degradation DhlA-ADH-ALDH-DhlB	https://pmc.ncbi.nlm.nih.gov/articles/PMC2442539/	primary/reviewed pathway
+SRC_MERB_2015	Sequential MerB then MerA organomercury detoxification	https://pmc.ncbi.nlm.nih.gov/articles/PMC4525700/	mechanistic primary
+SRC_MER_OPERON_2012	Mercury resistance/detoxification operon overview	https://pmc.ncbi.nlm.nih.gov/articles/PMC3466566/	review
+SRC_ALKB_2024	AlkB terminal oxidation and electron-transfer components	https://pmc.ncbi.nlm.nih.gov/articles/PMC11308474/	pathway overview
+SRC_LADA_2013	LadA terminal oxidation pathway	https://pmc.ncbi.nlm.nih.gov/articles/PMC3604635/	review
+SRC_OPD_2006	OPD hydrolysis plus downstream p-nitrophenol mineralization concept	https://pmc.ncbi.nlm.nih.gov/articles/PMC1610300/	primary
+SRC_AZO_2018	Azoreductase-mediated azo bond cleavage	https://pmc.ncbi.nlm.nih.gov/articles/PMC5863238/	review
+SRC_ARSM_2015	Microbial ArsM arsenic methylation	https://pmc.ncbi.nlm.nih.gov/articles/PMC4564252/	review

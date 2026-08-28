@@ -1,0 +1,5 @@
+reference_id	reaction_id	accession	protein_name	organism	length_aa	entry_type	sequence_sha256	status
+BRT_MOBA_3HB|Q6SSJ6	BRXN_MOBA_3HB	Q6SSJ6	3-hydroxybenzoate 4-monooxygenase	Comamonas testosteroni	639	UniProtKB reviewed (Swiss-Prot)	86623724c847a77721ccdd8e048ecd9590dfed614bf39b9cc83a780811491346	ADDED
+BRT_TFD_A|P10088	BRXN_TFD_A	P10088	Alpha-ketoglutarate-dependent 2,4-dichlorophenoxyacetate dioxygenase	Cupriavidus pinatubonensis (strain JMP 134 / LMG 1197)	287	UniProtKB reviewed (Swiss-Prot)	e901d121f4515e0063da88771f48101c22553b4474047e959666f5aa8652f277	ADDED
+BRT_FCBB2|Q9LCU3	BRXN_FCBB2	Q9LCU3	4-chlorobenzoyl coenzyme A dehalogenase-2	Arthrobacter sp	276	UniProtKB reviewed (Swiss-Prot)	c3ec6befa125c5331361a777dd33c9f6e218162e669776d0f422086401ff688f	ADDED
+BRT_GENT_MPI|O86043	BRXN_GENT_MPI	O86043	Maleylpyruvate isomerase	Ralstonia sp	212	UniProtKB reviewed (Swiss-Prot)	63143e1a10e36311e354e4be3785c76b5d1b086887d9d8f5e9887be2bfaf60bb	ADDED

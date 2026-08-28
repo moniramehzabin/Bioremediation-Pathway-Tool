@@ -1,0 +1,4 @@
+system	status	interpretation_rule
+PET polymer depolymerization	CURATED_DIRECT_POLYMER_ATTACK	PETase/PET hydrolase evidence is distinct from downstream MHET/TPA metabolism.
+PET assimilation core	CURATED_LIMITED	Polymer attack, MHET processing, and TPA entry are reported separately; downstream PCA/EG mineralization is not inferred automatically.
+PCL polymer depolymerization	CURATED_DIRECT_POLYMER_ATTACK_STRICT	Generic cutinase/lipase/esterase annotation is insufficient; exact PCL annotation or strict sequence gate required.

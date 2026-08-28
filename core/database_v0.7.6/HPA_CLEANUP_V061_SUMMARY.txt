@@ -1,0 +1,5 @@
+HPA cleanup 0.6.1-hpa-cleanup
+No reaction records deleted.
+BRXN_HPAD -> BRXN_HPA_D (legacy alias inactive)
+BRXN_HPAE -> BRXN_HPA_E (legacy alias inactive)
+Canonicalized inference-table rows: {'pathways.tsv': 1, 'reference_metadata.tsv': 1, 'reaction_components.tsv': 0, 'enzyme_aliases.tsv': 4}

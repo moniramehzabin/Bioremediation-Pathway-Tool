@@ -1,0 +1,80 @@
+LOCUS       SYNTH_POSITIVE          1203 bp    DNA              UNK 01-JAN-1980
+DEFINITION  Synthetic annotation-only positive control; not biological sequence
+            evidence.
+ACCESSION   SYNTH_POSITIVE
+VERSION     SYNTH_POSITIVE
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     CDS             1..90
+                     /locus_tag="PC_001"
+                     /gene="petase"
+                     /product="poly(ethylene terephthalate) hydrolase"
+                     /translation="MAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+     CDS             121..210
+                     /locus_tag="PC_002"
+                     /gene="mhetase"
+                     /product="mono(2-hydroxyethyl) terephthalate hydrolase"
+                     /translation="MAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+     CDS             241..330
+                     /locus_tag="PC_003"
+                     /gene="tphA1"
+                     /product="terephthalate 1,2-dioxygenase oxygenase large
+                     subunit"
+                     /translation="MAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+     CDS             361..450
+                     /locus_tag="PC_004"
+                     /gene="tphA2"
+                     /product="terephthalate 1,2-dioxygenase oxygenase small
+                     subunit"
+                     /translation="MAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+     CDS             481..570
+                     /locus_tag="PC_005"
+                     /gene="tphA3"
+                     /product="terephthalate 1,2-dioxygenase reductase"
+                     /translation="MAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+     CDS             601..690
+                     /locus_tag="PC_006"
+                     /gene="tphB"
+                     /product="terephthalate dihydrodiol dehydrogenase"
+                     /translation="MAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+     CDS             721..810
+                     /locus_tag="PC_007"
+                     /gene="pclase"
+                     /product="polycaprolactone depolymerase"
+                     /translation="MAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+     CDS             841..930
+                     /locus_tag="PC_008"
+                     /gene="pbatase"
+                     /product="PBAT depolymerase"
+                     /translation="MAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+     CDS             961..1050
+                     /locus_tag="PC_009"
+                     /gene="pueA"
+                     /product="polyurethanase A"
+                     /translation="MAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+ORIGIN
+        1 atggctgctg ctgctgctgc tgctgctgct gctgctgctg ctgctgctgc tgctgctgct
+       61 gctgctgctg ctgctgctgc tgctgctgct gctgctgctg ctgctgctgc tgctgctgct
+      121 gctgctgctg ctgctgctgc tgctgctgct gctgctgctg ctgctgctgc tgctgctgct
+      181 gctgctgctg ctgctgctgc tgctgctgct gctgctgctg ctgctgctgc tgctgctgct
+      241 gctgctgctg ctgctgctgc tgctgctgct gctgctgctg ctgctgctgc tgctgctgct
+      301 gctgctgctg ctgctgctgc tgctgctgct gctgctgctg ctgctgctgc tgctgctgct
+      361 gctgctgctg ctgctgctgc tgctgctgct gctgctgctg ctgctgctgc tgctgctgct
+      421 gctgctgctg ctgctgctgc tgctgctgct gctgctgctg ctgctgctgc tgctgctgct
+      481 gctgctgctg ctgctgctgc tgctgctgct gctgctgctg ctgctgctgc tgctgctgct
+      541 gctgctgctg ctgctgctgc tgctgctgct gctgctgctg ctgctgctgc tgctgctgct
+      601 gctgctgctg ctgctgctgc tgctgctgct gctgctgctg ctgctgctgc tgctgctgct
+      661 gctgctgctg ctgctgctgc tgctgctgct gctgctgctg ctgctgctgc tgctgctgct
+      721 gctgctgctg ctgctgctgc tgctgctgct gctgctgctg ctgctgctgc tgctgctgct
+      781 gctgctgctg ctgctgctgc tgctgctgct gctgctgctg ctgctgctgc tgctgctgct
+      841 gctgctgctg ctgctgctgc tgctgctgct gctgctgctg ctgctgctgc tgctgctgct
+      901 gctgctgctg ctgctgctgc tgctgctgct gctgctgctg ctgctgctgc tgctgctgct
+      961 gctgctgctg ctgctgctgc tgctgctgct gctgctgctg ctgctgctgc tgctgctgct
+     1021 gctgctgctg ctgctgctgc tgctgctgct gctgctgctg ctgctgctgc tgctgctgct
+     1081 gctgctgctg ctgctgctgc tgctgctgct gctgctgctg ctgctgctgc tgctgctgct
+     1141 gctgctgctg ctgctgctgc tgctgctgct gctgctgctg ctgctgctgc tgctgctgct
+     1201 taa
+//

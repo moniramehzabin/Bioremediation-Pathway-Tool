@@ -1,0 +1,6 @@
+Patch 0.5.4-reference-coverage-phase1
+Added reviewed references: 4
+Total reference proteins: 309
+Target reactions: BRXN_MOBA_3HB, BRXN_TFD_A, BRXN_FCBB2, BRXN_GENT_MPI
+No reactions/pathways/thresholds/evidence rules changed.
+Multicomponent and ambiguous-family gaps intentionally deferred.

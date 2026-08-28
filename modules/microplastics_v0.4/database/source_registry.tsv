@@ -1,0 +1,9 @@
+source_id	title	url	source_type
+SRC_PET_YOSHIDA_2016	A bacterium that degrades and assimilates poly(ethylene terephthalate)	https://pubmed.ncbi.nlm.nih.gov/26965627/	primary PETase/MHETase discovery and characterization
+SRC_PET_KNOCKOUT_2021	Targeted gene disruption of PETase and MHETase genes in Ideonella sakaiensis	https://pubmed.ncbi.nlm.nih.gov/34260304/	primary genetic validation
+SRC_TPA_E6_2006	Characterization of the terephthalate degradation genes of Comamonas sp. strain E6	https://pubmed.ncbi.nlm.nih.gov/16517628/	primary genetic/biochemical TPA pathway characterization
+SRC_PCL_TFUSCA_2005	Characterization of a new extracellular hydrolase from Thermobifida fusca degrading aliphatic-aromatic copolyesters	https://pubmed.ncbi.nlm.nih.gov/15638529/	primary experimentally characterized PCL-active enzyme
+SRC_PCL_DSWY01_2022	Two extracellular poly(epsilon-caprolactone)-degrading enzymes from Pseudomonas hydrolytica DSWY01T	https://pmc.ncbi.nlm.nih.gov/articles/PMC8971842/	primary purified enzymes + cloned genes + recombinant PCL activity
+SRC_PBAT_TFCUT_2023	Complete bio-degradation of poly(butylene adipate-co-terephthalate) via engineered cutinases	https://pubmed.ncbi.nlm.nih.gov/36964144/	primary biochemical/structural PBAT degradation
+SRC_PU_PF5_2016	Carbon Catabolite Repression and Impranil Polyurethane Degradation in Pseudomonas protegens Strain Pf-5	https://pmc.ncbi.nlm.nih.gov/articles/PMC5068165/	primary genetic/zymogram PU validation
+SRC_PU_PUEA_2000	The polyester polyurethanase gene (pueA) from Pseudomonas chlororaphis encodes a lipase	https://pubmed.ncbi.nlm.nih.gov/10754242/	primary cloned polyurethanase characterization

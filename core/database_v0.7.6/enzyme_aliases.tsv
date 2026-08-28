@@ -1,0 +1,127 @@
+reaction_id	alias_type	alias	match_mode	confidence	notes
+BRXN_CAT_A	gene	catA	exact	High	
+BRXN_CAT_A	gene	pheB	exact	High	
+BRXN_CAT_A	product	catechol 1,2-dioxygenase	contains	Moderate	
+BRXN_CAT_B	gene	catB	exact	High	
+BRXN_CAT_B	product	muconate cycloisomerase	contains	Moderate	
+BRXN_CAT_C	gene	catC	exact	High	
+BRXN_CAT_C	product	muconolactone delta-isomerase	contains	Moderate	
+BRXN_CAT_C	product	muconolactone isomerase	contains	Moderate	
+BRXN_PCA_GH	gene	pcaG	exact	High	
+BRXN_PCA_GH	gene	pcaH	exact	High	
+BRXN_PCA_GH	product	protocatechuate 3,4-dioxygenase	contains	Moderate	
+BRXN_PCA_B	gene	pcaB	exact	High	
+BRXN_PCA_B	product	3-carboxy-cis,cis-muconate cycloisomerase	contains	Moderate	
+BRXN_PCA_C	gene	pcaC	exact	High	
+BRXN_PCA_C	product	4-carboxymuconolactone decarboxylase	contains	Moderate	
+BRXN_PCA_D	gene	pcaD	exact	High	
+BRXN_PCA_D	gene	catD	exact	High	
+BRXN_PCA_D	product	3-oxoadipate enol-lactonase	contains	Moderate	
+BRXN_PCA_IJ	gene	pcaI	exact	High	
+BRXN_PCA_IJ	gene	pcaJ	exact	High	
+BRXN_PCA_IJ	product	3-oxoadipate CoA-transferase	contains	Moderate	
+BRXN_PCA_F	gene	pcaF	exact	High	
+BRXN_PCA_F	product	beta-ketoadipyl-CoA thiolase	contains	Moderate	
+BRXN_CHRR_CRVI	gene	chrR	exact	High	
+BRXN_CHRA_EFFLUX	gene	chrA	exact	High	
+BRXN_CHRA_EFFLUX	product	chromate transporter	contains	Moderate	
+BRXN_CHRA_EFFLUX	product	chromate efflux	contains	Moderate	
+BRXN_ARS_C	gene	arsC	exact	High	
+BRXN_ARS_C	product	arsenate reductase	contains	Moderate	
+BRXN_ARS_C	product	arsenate-mycothiol transferase	contains	Moderate	
+BRXN_ARS_EFFLUX	gene	arsB	exact	High	
+BRXN_ARS_EFFLUX	gene	acr3	exact	High	
+BRXN_ARS_EFFLUX	product	arsenite efflux transporter	contains	Moderate	
+BRXN_ARS_EFFLUX	product	ACR3 family arsenite efflux transporter	contains	Moderate	
+BRXN_MERA_HGII	gene	merA	exact	High	
+BRXN_MERA_HGII	product	mercuric reductase	contains	Moderate	
+BRXN_MERA_HGII	product	mercury(II) reductase	contains	Moderate	
+BRXN_COP_ATPASE	gene	copA	exact	High	
+BRXN_COP_ATPASE	gene	copB	exact	High	
+BRXN_COP_ATPASE	product	copper-exporting P-type ATPase	contains	Moderate	
+BRXN_COP_ATPASE	product	copper-translocating P-type ATPase	contains	Moderate	
+BRXN_CAD_CZC_EFFLUX	gene	cadA	exact	High	
+BRXN_CAD_CZC_EFFLUX	gene	czcD	exact	High	
+BRXN_CAD_CZC_EFFLUX	product	cadmium resistance transporter	contains	Moderate	
+BRXN_CAD_CZC_EFFLUX	product	cadmium, zinc and cobalt-transporting ATPase	contains	Moderate	
+BRXN_CAD_CZC_EFFLUX	product	metal cation efflux system protein CzcD	contains	Moderate	
+BRXN_DYP	gene	dyp	exact	High	
+BRXN_DYP	gene	dyp2	exact	High	
+BRXN_DYP	product	dye peroxidase	contains	Moderate	
+BRXN_DYP	product	DyP-type peroxidase	contains	Moderate	
+BRXN_DYP	product	multifunctional dye peroxidase	contains	Moderate	
+BRXN_LAC_MCO	product	multicopper oxidase	contains	Moderate	
+BRXN_LAC_MCO	product	laccase	contains	Moderate	
+BRXN_DHMA	gene	dhmA	exact	High	
+BRXN_DHMA	product	haloalkane dehalogenase	contains	Moderate	
+BRXN_FCBB2	gene	fcbB2	exact	High	
+BRXN_FCBB2	gene	fcbB	exact	High	
+BRXN_FCBB2	product	4-chlorobenzoyl coenzyme A dehalogenase	contains	Moderate	
+BRXN_FCBB2	product	4-chlorobenzoyl-CoA dehalogenase	contains	Moderate	
+BRXN_PRAI_4HB	gene	praI	exact	High	
+BRXN_PRAI_4HB	gene	pobA	exact	High	
+BRXN_PRAI_4HB	product	4-hydroxybenzoate 3-monooxygenase	contains	Moderate	
+BRXN_MOBA_3HB	gene	mobA	exact	High	
+BRXN_MOBA_3HB	product	3-hydroxybenzoate 4-monooxygenase	contains	Moderate	
+BRXN_HPA_D	gene	hpaD	exact	High	
+BRXN_HPA_D	product	3,4-dihydroxyphenylacetate 2,3-dioxygenase	contains	Moderate	
+BRXN_HPA_E	gene	hpaE	exact	High	
+BRXN_HPA_E	product	5-carboxymethyl-2-hydroxymuconate semialdehyde dehydrogenase	contains	Moderate	
+BRXN_AROM_RHO	product	aromatic ring-hydroxylating oxygenase subunit alpha	contains	Moderate	
+BRXN_NAH_B	gene	nahB	exact	High	topology v0.5.1 exact gene alias
+BRXN_NAH_C	gene	nahC	exact	High	topology v0.5.1 exact gene alias
+BRXN_NAH_D	gene	nahD	exact	High	topology v0.5.1 exact gene alias
+BRXN_NAH_E	gene	nahE	exact	High	topology v0.5.1 exact gene alias
+BRXN_NAH_F	gene	nahF	exact	High	topology v0.5.1 exact gene alias
+BRXN_NAH_G	gene	nahG	exact	High	topology v0.5.1 exact gene alias
+BRXN_BPH_A	gene	bphA1	exact	High	topology v0.5.1 exact gene alias
+BRXN_BPH_A	gene	bphA2	exact	High	topology v0.5.1 exact gene alias
+BRXN_BPH_B	gene	bphB	exact	High	topology v0.5.1 exact gene alias
+BRXN_BPH_C	gene	bphC	exact	High	topology v0.5.1 exact gene alias
+BRXN_BPH_D	gene	bphD	exact	High	topology v0.5.1 exact gene alias
+BRXN_STY_AB	gene	styA	exact	High	topology v0.5.1 exact gene alias
+BRXN_STY_AB	gene	styB	exact	High	topology v0.5.1 exact gene alias
+BRXN_STY_C	gene	styC	exact	High	topology v0.5.1 exact gene alias
+BRXN_STY_D	gene	styD	exact	High	topology v0.5.1 exact gene alias
+BRXN_STY_D	gene	feaB	exact	High	topology v0.5.1 exact gene alias
+BRXN_TFD_A	gene	tfdA	exact	High	topology v0.5.1 exact gene alias
+BRXN_TFD_B	gene	tfdB	exact	High	topology v0.5.1 exact gene alias
+BRXN_TFD_C	gene	tfdC	exact	High	topology v0.5.1 exact gene alias
+BRXN_TFD_D	gene	tfdD	exact	High	topology v0.5.1 exact gene alias
+BRXN_TFD_E	gene	tfdE	exact	High	topology v0.5.1 exact gene alias
+BRXN_TFD_E	gene	clcD	exact	High	topology v0.5.1 exact gene alias
+BRXN_TFD_F	gene	tfdF	exact	High	topology v0.5.1 exact gene alias
+BRXN_TFD_F	gene	clcE	exact	High	topology v0.5.1 exact gene alias
+BRXN_ATZ_A	gene	atzA	exact	High	topology v0.5.1 exact gene alias
+BRXN_ATZ_A	gene	trzN	exact	High	topology v0.5.1 exact gene alias
+BRXN_ATZ_B	gene	atzB	exact	High	topology v0.5.1 exact gene alias
+BRXN_ATZ_C	gene	atzC	exact	High	topology v0.5.1 exact gene alias
+BRXN_ATZ_D	gene	atzD	exact	High	topology v0.5.1 exact gene alias
+BRXN_ATZ_D	gene	trzD	exact	High	topology v0.5.1 exact gene alias
+BRXN_ATZ_EG	gene	atzE	exact	High	topology v0.5.1 exact gene alias
+BRXN_ATZ_EG	gene	atzG	exact	High	topology v0.5.1 exact gene alias
+BRXN_ATZ_F	gene	atzF	exact	High	topology v0.5.1 exact gene alias
+BRXN_HPA_BC	gene	hpaB	exact	High	topology v0.5.1 exact gene alias
+BRXN_HPA_BC	gene	hpaC	exact	High	topology v0.5.1 exact gene alias
+BRXN_HPA_D	gene	hpaD	exact	High	topology v0.5.1 exact gene alias
+BRXN_HPA_E	gene	hpaE	exact	High	topology v0.5.1 exact gene alias
+BRXN_HPA_F	gene	hpaF	exact	High	topology v0.5.1 exact gene alias
+BRXN_HPA_G	gene	hpaG	exact	High	topology v0.5.1 exact gene alias
+BRXN_HPA_H	gene	hpaH	exact	High	topology v0.5.1 exact gene alias
+BRXN_HPA_I	gene	hpaI	exact	High	topology v0.5.1 exact gene alias
+BRXN_HPA_SAD	gene	sad	exact	High	topology v0.5.1 exact gene alias
+BRXN_DCA_DHLA	gene	dhlA	exact	High	topology v0.5.1 exact gene alias
+BRXN_DCA_DHLB	gene	dhlB	exact	High	topology v0.5.1 exact gene alias
+BRXN_MER_B	gene	merB	exact	High	topology v0.5.1 exact gene alias
+BRXN_MER_A	gene	merA	exact	High	topology v0.5.1 exact gene alias
+BRXN_ALK_B	gene	alkB	exact	High	topology v0.5.1 exact gene alias
+BRXN_LADA	gene	ladA	exact	High	topology v0.5.1 exact gene alias
+BRXN_OPD	gene	opd	exact	High	topology v0.5.1 exact gene alias
+BRXN_OPD	gene	opdA	exact	High	topology v0.5.1 exact gene alias
+BRXN_AZOR	gene	azoR	exact	High	topology v0.5.1 exact gene alias
+BRXN_ARSM	gene	arsM	exact	High	topology v0.5.1 exact gene alias
+BRXN_CUSA	gene	cusA	exact	High	topology v0.5.1 exact gene alias
+BRXN_XYL_E	gene	xylE	exact	High	topology v0.5.1 exact gene alias
+BRXN_XYL_E	gene	nahH	exact	High	topology v0.5.1 exact gene alias
+BRXN_TMR	gene	tmr	exact	high	Experimentally characterized TMR-specific alias.
+BRXN_TMR	product	triphenylmethane reductase	exact	high	Experimentally characterized TMR-specific alias.

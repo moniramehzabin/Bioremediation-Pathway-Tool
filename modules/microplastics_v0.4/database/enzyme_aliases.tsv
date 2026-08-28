@@ -1,0 +1,42 @@
+reaction_id	alias_type	alias	match_mode	confidence	notes
+BRXN_PET_HYD	gene	petase	exact	High	PET-specific wording required for annotation support.
+BRXN_PET_HYD	gene	PETase	exact	High	PET-specific wording required for annotation support.
+BRXN_PET_HYD	product	pet hydrolase	contains	High	PET-specific wording required for annotation support.
+BRXN_PET_HYD	product	poly(ethylene terephthalate) hydrolase	contains	High	Do not equate generic esterase/cutinase annotation with PETase.
+BRXN_PET_HYD	product	polyethylene terephthalate hydrolase	contains	High	Do not equate generic esterase/cutinase annotation with PETase.
+BRXN_PET_HYD	product	PET-digesting enzyme	contains	High	Do not equate generic esterase/cutinase annotation with PETase.
+BRXN_MHET_HYD	gene	mhetase	exact	High	
+BRXN_MHET_HYD	gene	MHETase	exact	High	
+BRXN_MHET_HYD	product	mono(2-hydroxyethyl) terephthalate hydrolase	contains	High	
+BRXN_MHET_HYD	product	MHET hydrolase	contains	High	
+BRXN_TPA_DIOX	gene	tphA1	exact	High	
+BRXN_TPA_DIOX	gene	tphA1I	exact	High	
+BRXN_TPA_DIOX	gene	tphA1II	exact	High	
+BRXN_TPA_DIOX	gene	tphA2	exact	High	
+BRXN_TPA_DIOX	gene	tphA2I	exact	High	
+BRXN_TPA_DIOX	gene	tphA2II	exact	High	
+BRXN_TPA_DIOX	gene	tphA3	exact	High	
+BRXN_TPA_DIOX	gene	tphA3I	exact	High	
+BRXN_TPA_DIOX	gene	tphA3II	exact	High	
+BRXN_TPA_DIOX	product	terephthalate 1,2-dioxygenase	contains	Moderate	Component-aware scoring still requires TphA1/A2/A3.
+BRXN_TPA_DIOX	product	terephthalate dioxygenase	contains	Moderate	Component-aware scoring still requires TphA1/A2/A3.
+BRXN_TPA_DCD_DH	gene	tphB	exact	High	
+BRXN_TPA_DCD_DH	gene	tphBI	exact	High	
+BRXN_TPA_DCD_DH	gene	tphBII	exact	High	
+BRXN_TPA_DCD_DH	product	terephthalate dihydrodiol dehydrogenase	contains	High	
+BRXN_TPA_DCD_DH	product	1,2-dihydroxy-3,5-cyclohexadiene-1,4-dicarboxylate dehydrogenase	contains	High	
+BRXN_TPA_DCD_DH	product	DCD dehydrogenase	contains	High	
+BRXN_PCL_DEP	gene	pclase	exact	High	PCL-specific gene wording only.
+BRXN_PCL_DEP	gene	pcl1	exact	High	Literature PCLase I gene name; exact only.
+BRXN_PCL_DEP	product	polycaprolactone depolymerase	contains	High	PCL-specific product wording required.
+BRXN_PCL_DEP	product	poly(epsilon-caprolactone) depolymerase	contains	High	PCL-specific product wording required.
+BRXN_PCL_DEP	product	PCL depolymerase	contains	High	PCL-specific product wording required.
+BRXN_PCL_DEP	product	PCLase	contains	High	PCL-specific product wording required.
+BRXN_PBAT_DEP	gene	pbatase	exact	High	PBAT-specific wording only.
+BRXN_PBAT_DEP	product	PBAT depolymerase	contains	High	PBAT-specific wording required.
+BRXN_PBAT_DEP	product	PBAT hydrolase	contains	High	PBAT-specific wording required.
+BRXN_PU_DEP	gene	pueA	exact	High	Experimentally linked polyurethanase gene.
+BRXN_PU_DEP	gene	pueB	exact	High	Experimentally linked polyurethanase gene.
+BRXN_PU_DEP	product	polyurethanase A	contains	High	PU-specific annotation.
+BRXN_PU_DEP	product	polyurethanase B	contains	High	PU-specific annotation.
+BRXN_PU_DEP	product	polyurethane esterase	contains	High	PU-specific annotation.

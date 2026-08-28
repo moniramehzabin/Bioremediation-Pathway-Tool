@@ -1,0 +1,7 @@
+HPA model 0.6.0-hpa-pathway-model
+Added HPA reference mappings: 5
+Total reference proteins: 328
+Core HPA required reactions: 7
+HPA_SAD: optional downstream/supporting reaction
+BRXN_HPAE canonicalized to BRXN_HPA_E in pathway rows
+P37352/HpcE maps to both HPA_F and HPA_G as a true bifunctional enzyme

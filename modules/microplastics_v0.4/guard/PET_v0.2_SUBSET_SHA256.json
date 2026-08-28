@@ -1,0 +1,34 @@
+{
+  "reactions.tsv": {
+    "sha256": "a95b94942aacb31bf98a47ef3adacd866edc2444925a70fc77d0ddddabe1f016",
+    "rows": 4
+  },
+  "pathways.tsv": {
+    "sha256": "2098f19d1f7aa22ec4f181bf54a9a0cffeee40f680b667f4430b6b9d57f69ae5",
+    "rows": 8
+  },
+  "enzyme_aliases.tsv": {
+    "sha256": "b30f7a94405c2cf95b9a162cdbdc988f23357b8f92e6dccb912aa61cd9ea7bee",
+    "rows": 27
+  },
+  "reference_metadata.tsv": {
+    "sha256": "bf22070dba5f351d9795e86dd3c40512aacdb2da9150a23a2d96ca89b8a3d833",
+    "rows": 6
+  },
+  "reaction_components.tsv": {
+    "sha256": "cfe620b83345dd6e5373d61417be4222108772b8bc3a78f61a37096a20543469",
+    "rows": 3
+  },
+  "policy_pet_rows": {
+    "sha256": "53c6d42aa48f3c450219da77b7e95eb38c006877c67c3385359532c9a2a5362f",
+    "rows": 4
+  },
+  "reference_sequences": {
+    "BRT_MHET_HYD|A0A0K8P8E7": "f215fc047b4ec5926e15faefd54333a71ec3937e217a71557ab01af31f111933",
+    "BRT_PET_HYD|A0A0K8P6T7": "12c59fe9dab495ee536f1c2a5fc28c66e212192096c2351044d4dc139042f5af",
+    "BRT_TPA_A1|Q3C1D2": "e7a3e4260a98dd95ca98dc9994d02ac3962fc667ed7cd72d6889af7a5d89a7b7",
+    "BRT_TPA_A2|Q5D0X6": "464128899102377b32f355fb09a003c0238bdca08432ea48f9758fed8ede5cf5",
+    "BRT_TPA_A3|Q3C1D4": "5849bf5266dbef574275b7ab4b192d0f4479dae10e00584eeb999e03f3b09c81",
+    "BRT_TPA_B|Q3C1D3": "2fcb399f93b3dec773094504d5b1f3ac07476715633af6fd1e14bb717f5040ce"
+  }
+}

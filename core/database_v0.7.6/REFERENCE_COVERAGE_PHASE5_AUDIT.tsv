@@ -1,0 +1,5 @@
+reaction_id	reference_id	accession	protein_name	organism	entry_type	protein_existence	length_aa	sha256
+BRXN_ATZ_B	BRT_ATZ_B|P95442	P95442	Hydroxydechloroatrazine ethylaminohydrolase	Pseudomonas sp. (strain ADP)	UniProtKB reviewed (Swiss-Prot)	1: Evidence at protein level	481	8b8d5a9dfeec2a89d1cd1110f2e56b66a6f859f6472e7a370842d3a368c1fd8b
+BRXN_NAH_B	BRT_NAH_B|P0A169	P0A169	1,2-dihydroxy-1,2-dihydronaphthalene dehydrogenase	Pseudomonas putida	UniProtKB reviewed (Swiss-Prot)	3: Inferred from homology	259	d296d290f94cb646d4da51bf63dbeb3e49d9cb9875c2cbdb7ea9d4ebbb1c2c42
+BRXN_GENT_FPH	BRT_GENT_FPH|O86042	O86042	Fumarylpyruvate hydrolase	Ralstonia sp	UniProtKB reviewed (Swiss-Prot)	1: Evidence at protein level	192	7f7614af01a5c48981fe24ae7c07b1ea5b22f221a72aa2ae5ad83a2d6adc6db4
+BRXN_GENT_MPH	BRT_GENT_MPH|Q0QFQ3	Q0QFQ3	Maleylpyruvate hydrolase	Aquipseudomonas alcaligenes	UniProtKB reviewed (Swiss-Prot)	1: Evidence at protein level	287	082ac34349b854acd09e6bc163a2765b32a4b4e71bed18ddb34edbf796bd61d9

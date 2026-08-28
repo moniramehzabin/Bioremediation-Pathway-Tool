@@ -1,0 +1,4 @@
+reaction_id	component_id	gene_family	target_id	required	notes
+BRXN_TPA_DIOX	A	tphA1	BRT_TPA_A1	yes	Reductase component; required for TPADO reaction unit.
+BRXN_TPA_DIOX	B	tphA2	BRT_TPA_A2	yes	Terminal oxygenase large/alpha subunit; required.
+BRXN_TPA_DIOX	C	tphA3	BRT_TPA_A3	yes	Terminal oxygenase small/beta subunit; required.
