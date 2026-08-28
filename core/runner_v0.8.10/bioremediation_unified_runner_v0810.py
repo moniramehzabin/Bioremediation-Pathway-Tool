@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from __future__ import annotations
-import argparse, subprocess, sys
+import argparse, subprocess, sys, shutil
 from pathlib import Path
 
 def run(cmd):
@@ -14,7 +14,7 @@ def main():
     ap.add_argument("genbank")
     ap.add_argument("--db", default="Bioremediation_DB_v0.7.6_dyes")
     ap.add_argument("--interpro-tsv", required=True)
-    ap.add_argument("--diamond", default=".\\diamond.exe")
+    ap.add_argument("--diamond", default=None, help="Path/name of DIAMOND executable. If omitted, search PATH then repository root.")
     ap.add_argument("--out-prefix", required=True)
     ap.add_argument("--python", default=sys.executable)
     a = ap.parse_args()
@@ -22,6 +22,39 @@ def main():
     here = Path(__file__).resolve().parent
     repo_root = here.parent.parent
     integrated = repo_root / "core" / "integrated_evidence_v0.6.3" / "integrated_evidence_v063.py"
+    diamond = None
+    if a.diamond:
+        explicit = Path(a.diamond).expanduser()
+        if explicit.is_file():
+            diamond = str(explicit.resolve())
+        else:
+            diamond = shutil.which(a.diamond)
+        if not diamond:
+            raise SystemExit(
+                f"ERROR: DIAMOND executable not found: {a.diamond}"
+            )
+    else:
+        diamond = shutil.which("diamond") or shutil.which("diamond.exe")
+
+        if not diamond:
+            for candidate in (
+                repo_root / "diamond.exe",
+                repo_root / "diamond",
+            ):
+                if candidate.is_file():
+                    diamond = str(candidate.resolve())
+                    break
+
+        if not diamond:
+            raise SystemExit(
+                "ERROR: DIAMOND was not found. "
+                "Install DIAMOND and add it to PATH, "
+                "place diamond.exe in the repository root, "
+                "or use --diamond <path>."
+            )
+
+    print("DIAMOND:", diamond)
+
     norm = Path(a.out_prefix + "_normalized_input.gbk")
     audit = Path(a.out_prefix + "_GENBANK_INPUT_AUDIT.txt")
 
@@ -41,7 +74,7 @@ def main():
         str(used),
         "--db", a.db,
         "--interpro-tsv", a.interpro_tsv,
-        "--diamond", a.diamond,
+        "--diamond", diamond,
         "--integrated-engine", str(integrated),
         "--out-prefix", a.out_prefix,
     ])
