@@ -1,15 +1,15 @@
-# Bioremediation Pathway Tool â€” release candidate
+# Bioremediation Pathway Tool v0.1.0
 
 A bacterial-genome evidence-mining workflow for curated bioremediation reactions/pathways, with an isolated optional microplastics branch.
 
 This repository is **Bioremediation Pathway Tool**, a separate project from **Bioremediation Gene Miner**. The two projects should not be merged or treated as versions of one another.
 
-## Release-candidate scope
+## v0.1.0 scope
 
 - Stable core database v0.7.6: **34 pathway/module IDs, 81 reaction IDs, 379 reference proteins**.
 - Core runner v0.8.10, with the missing reporter reference repaired in this release candidate (`visual_pathway_reporter_v086.py`).
 - Optional microplastics v0.4: PET, PCL, PBAT and polyester-PU evidence models (**7 exact reaction IDs**).
-- P450 is deliberately **not** merged into the stable core; it remains a separate development track and is not included in this public candidate.
+- P450 is deliberately **not** merged into the stable core; it remains a separate development track and is not included in v0.1.0.
 
 ## Evidence interpretation
 
@@ -67,6 +67,6 @@ python "core\runner_v0.8.10\bioremediation_unified_runner_v0810.py" "sample.gbk"
 
 `examples/microplastics_annotation_positive_control.gbk` is deliberately synthetic and tests **annotation resolution only**. It is not biological sequence evidence and is not a substitute for end-to-end positive genomes.
 
-## Release information
+## Citation`r`n`r`nBioremediation Pathway Tool v0.1.0 is permanently archived on Zenodo.`r`n`r`n**DOI:** 10.5281/zenodo.22148201`r`n`r`n## Release information
 
 Bioremediation Pathway Tool v0.1.0 is released under the MIT License. Software authors are Monira Mehzabin and Khandoker Md Rezwan; citation metadata is provided in `CITATION.cff`. End-to-end positive biological controls can be expanded as the validation set grows.
