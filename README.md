@@ -1,15 +1,15 @@
-# Bioremediation Pathway Tool v0.1.0
+# Bioremediation Pathway Tool v0.1.1
 
 A bacterial-genome evidence-mining workflow for curated bioremediation reactions/pathways, with an isolated optional microplastics branch.
 
 This repository is **Bioremediation Pathway Tool**, a separate project from **Bioremediation Gene Miner**. The two projects should not be merged or treated as versions of one another.
 
-## v0.1.0 scope
+## v0.1.1 scope
 
 - Stable core database v0.7.6: **34 pathway/module IDs, 81 reaction IDs, 379 reference proteins**.
-- Core runner v0.8.10, including the validated table-first reporting workflow.
+- Core runner v0.8.10, with the missing reporter reference included with the validated table-first reporting workflow (`visual_pathway_reporter_v086.py`).
 - Optional microplastics v0.4: PET, PCL, PBAT and polyester-PU evidence models (**7 exact reaction IDs**).
-- P450 is deliberately **not** merged into the stable core; it remains a separate development track and is not included in v0.1.0.
+- P450 is deliberately **not** merged into the stable core; it remains a separate development track and is not included in this public release.
 
 ## Evidence interpretation
 
@@ -27,7 +27,7 @@ The table reporter summarizes **pathway/module IDs**, not unique reaction IDs. M
 - Biopython
 - requests
 - DIAMOND executable available locally for sequence-rescue runs
-- Precomputed InterPro TSV for normal integrated runs
+- InterPro analysis for normal integrated core runs. In auto mode, BPT uses a supplied precomputed InterPro TSV or local InterProScan when provided; otherwise it prompts for an email and runs selective EMBL-EBI InterProScan web jobs.
 
 Install Python dependencies:
 
@@ -60,19 +60,13 @@ python "modules\microplastics_v0.4\runner\run_microplastics_branch.py" "sample.g
 ## Stable-core run
 
 ```cmd
-python "core\runner_v0.8.10\bioremediation_unified_runner_v0810.py" "sample.gbk" --db "core\database_v0.7.6" --interpro-tsv "sample_interpro.tsv" --diamond "diamond.exe" --out-prefix "sample_core"
+python "core\runner_v0.8.10\bioremediation_unified_runner_v0810.py" "sample.gbk" --diamond "diamond.exe" --out-prefix "sample_core"
 ```
 
 ## Synthetic positive control
 
 `examples/microplastics_annotation_positive_control.gbk` is deliberately synthetic and tests **annotation resolution only**. It is not biological sequence evidence and is not a substitute for end-to-end positive genomes.
 
-## Citation
-
-Bioremediation Pathway Tool v0.1.0 is permanently archived on Zenodo.
-
-**DOI:** 10.5281/zenodo.22148201
-
 ## Release information
 
-Bioremediation Pathway Tool v0.1.0 is released under the MIT License. Software authors are Monira Mehzabin and Khandoker Md Rezwan; citation metadata is provided in `CITATION.cff`. End-to-end positive biological controls can be expanded as the validation set grows.
+Bioremediation Pathway Tool v0.1.1 is released under the MIT License. Software authors are Monira Mehzabin and Khandoker Md Rezwan; citation metadata is provided in `CITATION.cff`. End-to-end positive biological controls can be expanded as the validation set grows.

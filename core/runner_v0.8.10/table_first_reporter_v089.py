@@ -31,14 +31,12 @@ def rx_state(r):
     relationship = str(r.get("evidence_relationship","") or "")
     if state in {"NO_CANDIDATE","NOT_DETECTED",""} and not truth(r.get("candidate_present")):
         return "NOT_DETECTED"
-    # Explicit review flags always remain review-level and never count as support.
-    if review or state == "CANDIDATE_CONFLICTING":
-        return "REVIEW"
-    # A SUPPORTED_* adjudicated state remains supported unless explicitly review-flagged.
-    # Mixed-locus provenance is reported in the evidence-quality text; it is not, by itself,
-    # a reason to erase an already-adjudicated supported call.
+    # A clean adjudicated SUPPORTED_* state remains supported even when separate
+    # review-level evidence is also present. Review evidence itself never counts as support.
     if state.startswith("SUPPORTED"):
         return "SUPPORTED"
+    if review or state == "CANDIDATE_CONFLICTING":
+        return "REVIEW"
     if truth(r.get("candidate_present")) or "CANDIDATE" in state:
         return "CANDIDATE"
     if state.startswith("SUPPORTED"):

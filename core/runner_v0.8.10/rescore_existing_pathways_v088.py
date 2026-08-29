@@ -57,10 +57,9 @@ def main():
                 r=ev.get(rid,{})
                 state=r.get("integrated_state","")
                 c=truth(r.get("candidate_present")) or state not in {"","NO_CANDIDATE","NOT_DETECTED"}
-                # Strict: review-required and mixed-loci evidence never counts as supported.
-                sp=(truth(r.get("exact_supported"))
-                    and r.get("review_flag")!="YES"
-                    and state not in {"CANDIDATE_CONFLICTING","NO_CANDIDATE","SUPPORTED_MIXED_LOCI"})
+                # LOGIC A: an already-adjudicated SUPPORTED_* reaction remains countable support.
+                # Separate review-level evidence never creates support and does not erase clean support.
+                sp=state.startswith("SUPPORTED")
                 cm|=c; sm|=sp; rv|=(r.get("review_flag")=="YES")
             cand+=int(cm); supp+=int(sm); review+=int(cm and not sm and rv)
             if not cm: missing.append(uname if not uname.startswith("ALT:") else uname+"["+"|".join(members)+"]")

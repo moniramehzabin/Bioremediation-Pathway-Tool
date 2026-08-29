@@ -151,31 +151,119 @@ def ebi_fetch_tsv(job_id):
 
 
 def web_interproscan(candidate_sequences,email,out_prefix,applications=None,max_jobs=200):
-    combined=out_prefix+"_interpro_web.tsv"; failed_path=out_prefix+"_interpro_failed.tsv"
+    """
+    Run selective InterProScan web jobs asynchronously in bounded batches.
+
+    Scientific behavior is unchanged: candidate_sequences is still the exact
+    selectively chosen locus set produced by Hybrid Rescue. This function only
+    changes remote-job orchestration.
+    """
+    combined=out_prefix+"_interpro_web.tsv"
+    failed_path=out_prefix+"_interpro_failed.tsv"
+
     already=set()
     if os.path.exists(combined) and os.path.getsize(combined)>0:
-        try: already=set(parse_interproscan_tsv(combined).keys())
-        except Exception: already=set()
+        try:
+            already=set(parse_interproscan_tsv(combined).keys())
+        except Exception:
+            already=set()
+
     pending=[(l,s) for l,s in candidate_sequences.items() if l not in already]
-    if len(pending)>max_jobs: raise RuntimeError(f"{len(pending)} new InterPro candidates exceed --interpro-max-jobs={max_jobs}.")
-    if already: print(f"InterPro resume: reusing {len(already)} locus/loci from {combined}")
+    if len(pending)>max_jobs:
+        raise RuntimeError(f"{len(pending)} new InterPro candidates exceed --interpro-max-jobs={max_jobs}.")
+
+    if already:
+        print(f"InterPro resume: reusing {len(already)} locus/loci from {combined}")
     print(f"New InterPro web jobs required: {len(pending)}")
-    failures=[]; mode="a" if os.path.exists(combined) else "w"
+
+    failures=[]
+    mode="a" if os.path.exists(combined) else "w"
+    max_active=30
+    poll_seconds=5
+    job_timeout_seconds=3600
+
     with open(combined,mode,encoding="utf-8") as out:
-        for i,(locus,seq) in enumerate(pending,1):
-            print(f"InterPro web {i}/{len(pending)}: {locus}"); job=""
-            try:
-                job=ebi_submit(f">{locus}\n{seq}\n",email,f"UniversalRescue_{locus}",applications); ebi_wait(job); tsv=ebi_fetch_tsv(job); out.write(tsv)
-                if tsv and not tsv.endswith("\n"): out.write("\n")
-                out.flush()
-            except Exception as exc:
-                print(f"WARNING: InterPro unavailable for {locus}; retaining DIAMOND candidate. Reason: {exc}",file=sys.stderr)
-                failures.append({"locus_tag":locus,"job_id":job,"status":"INTERPRO_UNAVAILABLE_NEEDS_RETRY","error":str(exc)})
+        total=len(pending)
+        completed=0
+
+        for batch_start in range(0,total,max_active):
+            batch=pending[batch_start:batch_start+max_active]
+            active={}
+            batch_no=(batch_start//max_active)+1
+            batch_total=(total+max_active-1)//max_active if total else 0
+            print(f"InterPro web batch {batch_no}/{batch_total}: submitting {len(batch)} candidate(s)")
+
+            for locus,seq in batch:
+                job=""
+                try:
+                    job=ebi_submit(f">{locus}\n{seq}\n",email,f"UniversalRescue_{locus}",applications)
+                    if not job:
+                        raise RuntimeError("EMBL-EBI returned an empty job ID")
+                    active[job]={
+                        "locus":locus,
+                        "submitted":time.time(),
+                        "last_status":""
+                    }
+                    print(f"  SUBMITTED {locus} -> {job}")
+                except Exception as exc:
+                    print(f"WARNING: InterPro submission unavailable for {locus}; retaining DIAMOND candidate. Reason: {exc}",file=sys.stderr)
+                    failures.append({"locus_tag":locus,"job_id":job,"status":"INTERPRO_UNAVAILABLE_NEEDS_RETRY","error":str(exc)})
+
+            while active:
+                for job in list(active):
+                    info=active[job]
+                    locus=info["locus"]
+
+                    if time.time()-info["submitted"] > job_timeout_seconds:
+                        exc=TimeoutError(f"Timed out waiting for InterProScan job {job}")
+                        print(f"WARNING: InterPro unavailable for {locus}; retaining DIAMOND candidate. Reason: {exc}",file=sys.stderr)
+                        failures.append({"locus_tag":locus,"job_id":job,"status":"INTERPRO_UNAVAILABLE_NEEDS_RETRY","error":str(exc)})
+                        del active[job]
+                        continue
+
+                    try:
+                        status=_request_with_retry(
+                            "GET",
+                            IPR_BASE+f"/status/{job}",
+                            timeout=60,
+                            retries=5,
+                            base_wait=5
+                        ).text.strip()
+
+                        if status != info["last_status"]:
+                            print(f"  {locus}: {status} ({job})")
+                            info["last_status"]=status
+
+                        if status=="FINISHED":
+                            tsv=ebi_fetch_tsv(job)
+                            out.write(tsv)
+                            if tsv and not tsv.endswith("\n"):
+                                out.write("\n")
+                            out.flush()
+                            completed+=1
+                            print(f"  FINISHED {completed}/{total}: {locus} ({job})")
+                            del active[job]
+
+                        elif status in {"ERROR","FAILURE","NOT_FOUND"}:
+                            raise RuntimeError(f"InterProScan web job {job} ended with status {status}")
+
+                    except Exception as exc:
+                        print(f"WARNING: InterPro unavailable for {locus}; retaining DIAMOND candidate. Reason: {exc}",file=sys.stderr)
+                        failures.append({"locus_tag":locus,"job_id":job,"status":"INTERPRO_UNAVAILABLE_NEEDS_RETRY","error":str(exc)})
+                        del active[job]
+
+                if active:
+                    print(f"InterPro web progress: {completed}/{total} finished; {len(active)} active")
+                    time.sleep(poll_seconds)
+
     with open(failed_path,"w",newline="",encoding="utf-8") as f:
-        fields=["locus_tag","job_id","status","error"]; w=csv.DictWriter(f,fieldnames=fields,delimiter="\t"); w.writeheader(); w.writerows(failures)
+        fields=["locus_tag","job_id","status","error"]
+        w=csv.DictWriter(f,fieldnames=fields,delimiter="\t")
+        w.writeheader()
+        w.writerows(failures)
+
     print(f"InterPro completed with {len(failures)} unavailable candidate(s). See: {failed_path}" if failures else "InterPro completed for all submitted candidates.")
     return combined
-
 
 def choose_interpro_mode(args):
     if args.interpro_mode!="auto": return args.interpro_mode

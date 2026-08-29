@@ -362,11 +362,10 @@ def main():
                 rr=aev.get(rid,{})
                 state=rr.get("integrated_state","")
                 cand=truth(rr.get("candidate_present")) or state not in {"","NO_CANDIDATE","NOT_DETECTED"}
-                # STRICT SUPPORT RULE:
-                # review-required evidence is never allowed to increase supported_units.
-                supp=(truth(rr.get("exact_supported"))
-                      and rr.get("review_flag") != "YES"
-                      and state not in {"CANDIDATE_CONFLICTING","NO_CANDIDATE","SUPPORTED_MIXED_LOCI"})
+                # LOGIC A SUPPORT RULE:
+                # An already-adjudicated SUPPORTED_* reaction remains countable support.
+                # Separate review-level evidence never creates support and does not erase clean support.
+                supp=state.startswith("SUPPORTED")
                 if cand:
                     cm=True; observed_rx.add(rid)
                 if supp:
