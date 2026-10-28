@@ -2,9 +2,8 @@ cff-version: 1.2.0
 message: "If you use this software, please cite the software release."
 title: "Bioremediation Pathway Tool"
 type: software
-version: "0.1.1"
-date-released: 2026-08-29
-doi: 10.5281/zenodo.22161894
+version: "0.2.0"
+date-released: 2026-10-28
 authors:
   - family-names: "Mehzabin"
     given-names: "Monira"
