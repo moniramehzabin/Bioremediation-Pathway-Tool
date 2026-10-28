@@ -1,5 +1,16 @@
 # Bioremediation Pathway Tool v0.1.1
 
+## Local app preview v0.2
+
+A browser interface is available with genome upload, InterPro settings, live
+logs, cancellation, report viewing, Excel export and result downloads. It also
+adds separately recorded DyP family validation for specifically annotated
+proteins missed by reference searching. See [APP_UPDATE_v02.md](APP_UPDATE_v02.md).
+On a configured Windows
+computer, double-click **Open_Pathway_Tool.bat**; on Linux, run `python app.py`.
+See [APP_GUIDE.md](APP_GUIDE.md) for setup, WSL support and current limitations.
+This is an interface preview, not a new validated scientific-engine release.
+
 A bacterial-genome evidence-mining workflow for curated bioremediation reactions/pathways, with an isolated optional microplastics branch.
 
 This repository is **Bioremediation Pathway Tool**, a separate project from **Bioremediation Gene Miner**. The two projects should not be merged or treated as versions of one another.

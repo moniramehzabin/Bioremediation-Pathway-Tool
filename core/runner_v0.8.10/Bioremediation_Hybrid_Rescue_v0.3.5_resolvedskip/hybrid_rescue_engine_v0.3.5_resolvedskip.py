@@ -38,6 +38,7 @@ from collections import defaultdict
 from pathlib import Path
 
 import rescue_core_v022 as core
+import family_seed_evidence as family_seed
 import evidence_policy_v054 as ep
 
 VERSION = "0.3.4"
@@ -396,6 +397,13 @@ def main():
     print(f"Assignment bands: High={high_n}, Moderate={moderate_n}, Weak={weak_n}")
     print(f"Unique proteins selected for InterPro by hybrid policy: {len(selected_loci)}")
 
+    # Specific annotations nominate a separate family-validation route, even
+    # when the limited reference library produces no DIAMOND hit. Never count
+    # these nominations as support without conventional family/domain evidence.
+    dyp_nominations = family_seed.nominated_dyp(proteins, reactions, resolved_pairs)
+    selected_loci.update(dyp_nominations)
+    print(f"Additional DyP family nominations for domain checking: {len(dyp_nominations)}")
+
     # InterPro candidate FASTA.
     candidate_faa = args.out_prefix + "_interpro_candidates.faa"
     with open(candidate_faa, "w", encoding="utf-8") as out:
@@ -538,6 +546,28 @@ def main():
         final_rows.append(x)
         if countable:
             countable_rows.append(x)
+
+    family_results = family_seed.evaluate_dyp(ipfile, seqs, dyp_nominations)
+    with open(args.out_prefix + '_family_validation.tsv', 'w', newline='', encoding='utf-8') as f:
+        fields = ['locus_tag', 'family_state', 'countable_family', 'domain_evidence',
+                  'sequence_mismatch_rows', 'interpretation']
+        writer = csv.DictWriter(f, fieldnames=fields, delimiter='\t')
+        writer.writeheader(); writer.writerows(family_results)
+    for result in family_results:
+        row = family_seed.candidate_row(result, proteins, reactions)
+        same = [r for r in final_rows if r['reaction_id'] == 'BRXN_DYP'
+                and r['locus_tag'] == result['locus_tag']]
+        # Never hide an explicit conflicting result from the original route.
+        conflicts = any(r['policy_interpro_status'] in {'CONFLICTING', 'AMBIGUOUS'} for r in same)
+        if conflicts:
+            continue
+        if result['countable_family']:
+            for old in same:
+                final_rows.remove(old)
+                if old in countable_rows: countable_rows.remove(old)
+            final_rows.append(row); countable_rows.append(row)
+        elif not same:
+            final_rows.append(row)
 
     # Write complete assessed candidate table.
     all_out = args.out_prefix + "_all_candidates.tsv"

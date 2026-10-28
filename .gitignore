@@ -15,3 +15,6 @@ __pycache__/
 *_VISUAL_REPORT.html
 .DS_Store
 Thumbs.db
+# Local app run outputs and Python caches
+BPT_results/
+__pycache__/
